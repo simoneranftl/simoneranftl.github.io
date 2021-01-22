@@ -1,6 +1,6 @@
 +++
-seo_description = "ALP"
-title = "ALP home"
+seo_description = "simoneranftl"
+title = "simoneranftl home"
 type = "page"
 
 +++
