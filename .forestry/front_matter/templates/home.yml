@@ -403,3 +403,4 @@ fields:
   label: Videos
 pages:
 - content/_index.md
+- content/osteopathie.md
