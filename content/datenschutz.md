@@ -25,16 +25,6 @@ Deutschland
 sr@simone-ranftl.de  
 simone-ranftl.de/impressum
 
-## Verarbeitung Ihrer Daten im Rahmen der von uns erbrachten Gesundheitsleistungen
-
-Sofern Sie unser Patient oder Geschäftspartner sind oder sich für unsere Leistungen interessieren, richtet sich Art, Umfang und Zweck der Verarbeitung Ihrer Daten nach dem zwischen uns bestehenden vertraglichen bzw. vorvertraglichen Beziehungen. In diesem Sinne gehören zu den von uns verarbeiteten Daten all diejenigen Daten, die zum Zwecke der Inanspruchnahme der vertraglichen bzw. vorvertraglichen Leistungen durch Sie bereitgestellt werden bzw. wurden und die zur Abwicklung Ihrer Anfrage oder des zwischen uns geschlossenen Vertrages benötigt werden. Sofern sich aus den weiteren Hinweisen dieser Datenschutzerklärung nichts anderes ergibt, beschränkt sich die Verarbeitung Ihrer Daten sowie deren Weitergabe an Dritte auf diejenigen Daten, die zur Beantwortung Ihrer Anfragen und/oder zur Erfüllung des zwischen Ihnen und uns geschlossenen Vertrages, zur Wahrung unserer Rechte sowie zur Erfüllung gesetzlicher Pflichten erforderlich und zweckmäßig sind. Welche Daten hierfür erforderlich sind, teilen wir Ihnen vor oder im Rahmen der Datenerhebung mit. Soweit wir zur Erbringung unserer Leistungen Drittanbieter einsetzen, gelten die Datenschutzhinweise der jeweiligen Drittanbieter.
-
-**Besondere Kategorien von Daten**
-
-Sofern Sie bei uns Patient sind oder bei uns eine Anfrage stellen, weil Sie sich für die von uns angebotenen Gesundheitsleistungen interessieren, sind von der Datenverarbeitung möglicherweise auch sogenannte besondere Kategorien von Daten betroffen. Hierzu gehören insbesondere Angaben zur Ihrer Gesundheit, ggf. mit Bezug zu Ihrem Sexualleben oder Ihrer sexuellen Orientierung, genetische sowie biometrische Angaben, sowie Angaben, aus denen sich Ihre rassische bzw. ethnische Herkunft ergibt (Art. 9 Abs. 1 DSGVO). Diese Daten verarbeiten wir ausschließlich zu Zwecken Ihrer gesundheitlichen Vorsorge oder zum Schutz Ihrer lebensnotwendigen Interessen. Benötigen wir die eben genannten Angaben für weitere als die eben genannten Zwecke (Gesundheitsvorsorge, Schutz lebensnotwendiger Interessen), informieren wir Sie hierüber, bevor wir diese Daten verarbeiten, ausführlich und holen anschließend Ihre ausdrückliche Einwilligung ein.
-
-Sofern es zur Erfüllung des zwischen uns geschlossenen Vertrages, zum Schutz Ihrer lebensnotwendigen Interessen oder wegen gesetzlicher Vorgaben erforderlich ist, übermitteln wir Ihre Daten unter Beachtung unserer berufsrechtlichen Vorgaben zur Verschwiegenheit an Dritte, wie bspw. Behörden, medizinische Einrichtungen, Labore, Abrechnungsstellen sowie Steuerberater.
-
 **Betroffene Daten:**
 
 * Bestandsdaten (bspw. Namen, Adressen)
