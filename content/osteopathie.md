@@ -1,5 +1,4 @@
 +++
-draft = true
 pfeil = ""
 seo_description = ""
 title = "Osteopathie"
