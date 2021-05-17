@@ -1,7 +1,7 @@
 +++
 bild_header = ""
 date = 2018-05-25T07:47:15Z
-seo_description = "asd"
+seo_description = "datenschutzerklärung"
 titel_header = "Datenschutz"
 title = "Datenschutz"
 type = "page"
