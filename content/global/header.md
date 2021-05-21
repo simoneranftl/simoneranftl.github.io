@@ -1,6 +1,6 @@
 ---
 title: Header
-logo: "/uploads/2020/05/04/Logo_Lausterer_final_quer.png"
+logo: "/uploads/2021/05/21/logo_simone_ranftl.png"
 livecall:
   livecall:
   - bild: "/uploads/2020/09/22/live-call_al.png"
