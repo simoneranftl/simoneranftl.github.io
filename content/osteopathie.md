@@ -1,5 +1,5 @@
 +++
-bildergalerie_osteopathie = []
+bildergalerie_osteopathie = ["/uploads/2021/05/21/jgs_180720_06681_2250px.jpg", "/uploads/2021/05/21/jgs_180720_06602_2250px.jpg", "/uploads/2021/05/21/jgs_180720_06843_2250px.jpg", "/uploads/2021/05/21/jgs_180720_07518_2250px.jpg", "/uploads/2021/05/21/jgs_180720_06622_2250px.jpg"]
 headline = "Osteopathie"
 hinweistext = ""
 pfeil = ""
