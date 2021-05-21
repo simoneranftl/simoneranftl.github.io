@@ -7,9 +7,6 @@ text1 = "<p>Mein Ziel ist es, dass ich mit jedem Patienten in engem, direkten Ko
 title = "simoneranftl home"
 type = "page"
 [[reitergruppe]]
-reitertext = "<ul><li><p>Dreimonatskoliken</p></li><li><p>Spuck-und Schreikinder</p></li><li><p>Schlafprobleme</p></li><li><p>Kopfschiefhaltung/Torticollis</p></li><li><p>Fehlhaltung/Skoliose/Fußfehlstellungen</p></li><li><p>verstopfter Tränenkanal</p></li><li><p>Stillprobleme</p></li><li><p>Hüftdysplasien</p></li><li><p>chronische Mittelohrentzündungen</p></li><li><p>Lern-und Konzentrationsstörungen</p></li><li><p>Bettnäsen</p></li></ul>"
-reitertitel = "Osteopathie für Kinder und Babys"
-[[reitergruppe]]
 reitertext = "<ul><li><p>im Bereich des Bewegungsapparates (Bandscheibenvorfälle, Hexenschuss, Verletzungen, Gelenkschmerzen)</p></li><li><p>im internistischen Bereichen (Reizdarm, Sodbrennen, funktionelle Herzbeschwerden)</p></li><li><p>im Bereich des Kopf (Kopfschmerzen, Mittelohrentzündiingen, Nebenhöhlenentzündungen, Kiefergelenksstörungen, Augenprobleme)</p></li></ul>"
 reitertitel = "Osteopathie für Erwachsene"
 [[reitergruppe]]
@@ -18,6 +15,9 @@ reitertitel = "Osteopathie bei Kinderwunsch"
 [[reitergruppe]]
 reitertext = "<p>im Rahmen meiner Behandlung begleite ich die Frauen um sich während der Schwangerschaft an die körperlichen und psychischen Veränderungen anzupassen.</p><ul><li><p>Rückenschmerzen</p></li><li><p>Sodbrennen</p></li><li><p>Ischias Beschwerden</p></li><li><p>Schambein Dysfunktionen</p></li><li><p>Steißbein Dsfunktionen</p></li><li><p>Verdauungsbeschwerden</p></li><li><p>Kribbel-, Taubheitsgefühl in den Händen</p></li><li><p>Kurzatmigkeit</p></li><li><p>Beckenfehlstellung</p></li><li><p>Vorbereitung auf die Geburt (evtl. Beckenasymmetrien beseitigen, Beckenbodenbehandlung)</p></li></ul><p><br></p>"
 reitertitel = "Osteopathie in der Schwangerschaft"
+[[reitergruppe]]
+reitertext = "<ul><li><p>Dreimonatskoliken</p></li><li><p>Spuck-und Schreikinder</p></li><li><p>Schlafprobleme</p></li><li><p>Kopfschiefhaltung/Torticollis</p></li><li><p>Fehlhaltung/Skoliose/Fußfehlstellungen</p></li><li><p>verstopfter Tränenkanal</p></li><li><p>Stillprobleme</p></li><li><p>Hüftdysplasien</p></li><li><p>chronische Mittelohrentzündungen</p></li><li><p>Lern-und Konzentrationsstörungen</p></li><li><p>Bettnäsen</p></li></ul>"
+reitertitel = "Osteopathie für Kinder und Babys"
 [[reitergruppe]]
 reitertext = "<p>Ältere Menschen sind nicht mehr so stressresistent wie früher. Alte Zellen fallen in ein Ruhestadium, diese produzieren oft entzündungsfördernde Stoffe.</p><p>Bei der osteopathischen Behandlung ist es das Ziel, eine verbesserte Drainage und den Abtransport in den Ausscheidungsorganen zu erreichen.</p>"
 reitertitel = "Osteopathie im Alter"
