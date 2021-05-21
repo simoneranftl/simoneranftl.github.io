@@ -7,6 +7,9 @@ text1 = "<p>Mein Ziel ist es, dass ich mit jedem Patienten in engem, direkten Ko
 title = "simoneranftl home"
 type = "page"
 [[reitergruppe]]
+reitertext = "<p>Psychische Belastungen können als körperliches Symptom in Erscheinung treten. Beschwerdebilder wie Schwindel, Schmerzen im Bereich der Wirbelsäule (es bestehen direkte Verbindungen der WS-Faszie zum Gefühlszentrum im Gehirn) und Magen-Darm-Beschwerden können sich dabei vorkommen.</p>"
+reitertitel = "Osteopathie bei psychsomatischen Beschwerden"
+[[reitergruppe]]
 reitertext = "<p>Ältere Menschen sind nicht mehr so stressresistent wie früher. Alte Zellen fallen in ein Ruhestadium, diese produzieren oft entzündungsfördernde Stoffe.</p><p>Bei der osteopathischen Behandlung ist es das Ziel, eine verbesserte Drainage und den Abtransport in den Ausscheidungsorganen zu erreichen.</p>"
 reitertitel = "Osteopathie im Alter"
 [[reitergruppe]]
