@@ -7,6 +7,9 @@ text1 = "<p>Mein Ziel ist es, dass ich mit jedem Patienten in engem, direkten Ko
 title = "simoneranftl home"
 type = "page"
 [[reitergruppe]]
+reitertext = "<p>Diese Patienten befinden sich häufig in einer Vagotonie. Das bedeutet, dass sich das Gleichgewicht des vegetativen Nervensystems verändert und die Drüsenfunktion im Körper eher eine Unterfunktion aufweist.</p><p>Die Osteopathie zielt darauf ab, die Vitalität im Körper des Patienten zu verbessern und eine Stimulation in diesen Bereichen zu erreichen. In osteopathischen Hypothesen wird beschreiben, dass eine Blockade der Wirbelsäule der mögliche Auslöser für eine Depression sein kann.</p>"
+reitertitel = "Osteopathie bei Depression und Angstzuständen"
+[[reitergruppe]]
 reitertext = "<p>Psychische Belastungen können als körperliches Symptom in Erscheinung treten. Beschwerdebilder wie Schwindel, Schmerzen im Bereich der Wirbelsäule (es bestehen direkte Verbindungen der WS-Faszie zum Gefühlszentrum im Gehirn) und Magen-Darm-Beschwerden können sich dabei vorkommen.</p>"
 reitertitel = "Osteopathie bei psychsomatischen Beschwerden"
 [[reitergruppe]]
