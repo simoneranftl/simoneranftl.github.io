@@ -34,5 +34,8 @@ text = "<p><strong>PRAXIS ROTTENBURG</strong></p><p>Schulstraße 6 <br>84056 Rot
 [[kontakt]]
 icon = "/uploads/2021/05/21/phone.png"
 text = "<p>0 171 - 574 70 63</p>"
+[[kontakt]]
+icon = "/uploads/2021/05/21/mail.png"
+text = "<p>sr@simone-ranftl.de</p>"
 
 +++
