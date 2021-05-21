@@ -63,5 +63,4 @@ fields:
   label: hinweistext
 pages:
 - content/_index.md
-- content/osteopathie.md
 - content/vita.md

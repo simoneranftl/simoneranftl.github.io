@@ -75,3 +75,5 @@ fields:
         format: html-blocks
     label: spalte rechts
   label: Kosten
+pages:
+- content/osteopathie.md
