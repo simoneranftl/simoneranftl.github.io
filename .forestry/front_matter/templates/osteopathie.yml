@@ -1,4 +1,77 @@
 ---
 label: Osteopathie
 hide_body: true
-fields: []
+fields:
+- name: headline
+  type: text
+  config:
+    required: false
+  label: headline
+- name: text1
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: true
+    schema:
+      format: html-blocks
+  label: text1
+- name: textspalte1
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: true
+    schema:
+      format: html-blocks
+  label: textspalte1
+- name: textspalte2
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: true
+    schema:
+      format: html-blocks
+  label: textspalte2
+- name: text_unten
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: false
+    schema:
+      format: markdown
+  label: text unten
+- name: bildergalerie_osteopathie
+  type: image_gallery
+  config: {}
+  label: Bildergalerie osteopathie
+- name: kosten
+  type: field_group
+  config: {}
+  fields:
+  - name: headline-kosten_
+    type: text
+    config:
+      required: false
+    label: 'Headline-kosten '
+  - name: spalte_links
+    type: textarea
+    default: ''
+    config:
+      required: false
+      wysiwyg: false
+      schema:
+        format: markdown
+    label: spalte links
+  - name: spalte_rechts
+    type: textarea
+    default: ''
+    config:
+      required: false
+      wysiwyg: true
+      schema:
+        format: html-blocks
+    label: spalte rechts
+  label: Kosten
