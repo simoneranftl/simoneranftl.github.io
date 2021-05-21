@@ -7,16 +7,19 @@ text1 = "<p>Mein Ziel ist es, dass ich mit jedem Patienten in engem, direkten Ko
 title = "simoneranftl home"
 type = "page"
 [[reitergruppe]]
+reitertext = "<p>im Rahmen meiner Behandlung begleite ich die Frauen um sich während der Schwangerschaft an die körperlichen und psychischen Veränderungen anzupassen.</p><ul><li><p>Rückenschmerzen</p></li><li><p>Sodbrennen</p></li><li><p>Ischias Beschwerden</p></li><li><p>Schambein Dysfunktionen</p></li><li><p>Steißbein Dsfunktionen</p></li><li><p>Verdauungsbeschwerden</p></li><li><p>Kribbel-, Taubheitsgefühl in den Händen</p></li><li><p>Kurzatmigkeit</p></li><li><p>Beckenfehlstellung</p></li><li><p>Vorbereitung auf die Geburt (evtl. Beckenasymmetrien beseitigen, Beckenbodenbehandlung)</p></li></ul><p><br></p>"
+reitertitel = "Osteopathie in der Schwangerschaft"
+[[reitergruppe]]
+reitertext = "<ul><li><p>im Bereich des Bewegungsapparates (Bandscheibenvorfälle, Hexenschuss, Verletzungen, Gelenkschmerzen)</p></li><li><p>im internistischen Bereichen (Reizdarm, Sodbrennen, funktionelle Herzbeschwerden)</p></li><li><p>im Bereich des Kopf (Kopfschmerzen, Mittelohrentzündiingen, Nebenhöhlenentzündungen, Kiefergelenksstörungen, Augenprobleme)</p></li></ul>"
+reitertitel = "Osteopathie für Erwachsene"
+[[reitergruppe]]
+reitertext = "<p>Ältere Menschen sind nicht mehr so stressresistent wie früher. Alte Zellen fallen in ein Ruhestadium, diese produzieren oft entzündungsfördernde Stoffe.</p><p>Bei der osteopathischen Behandlung ist es das Ziel, eine verbesserte Drainage und den Abtransport in den Ausscheidungsorganen zu erreichen.</p>"
+reitertitel = "Osteopathie im Alter"
+[[reitergruppe]]
 reitertext = "<p>Diese Patienten befinden sich häufig in einer Vagotonie. Das bedeutet, dass sich das Gleichgewicht des vegetativen Nervensystems verändert und die Drüsenfunktion im Körper eher eine Unterfunktion aufweist.</p><p>Die Osteopathie zielt darauf ab, die Vitalität im Körper des Patienten zu verbessern und eine Stimulation in diesen Bereichen zu erreichen. In osteopathischen Hypothesen wird beschreiben, dass eine Blockade der Wirbelsäule der mögliche Auslöser für eine Depression sein kann.</p>"
 reitertitel = "Osteopathie bei Depression und Angstzuständen"
 [[reitergruppe]]
 reitertext = "<p>Psychische Belastungen können als körperliches Symptom in Erscheinung treten. Beschwerdebilder wie Schwindel, Schmerzen im Bereich der Wirbelsäule (es bestehen direkte Verbindungen der WS-Faszie zum Gefühlszentrum im Gehirn) und Magen-Darm-Beschwerden können sich dabei vorkommen.</p>"
 reitertitel = "Osteopathie bei psychsomatischen Beschwerden"
-[[reitergruppe]]
-reitertext = "<p>Ältere Menschen sind nicht mehr so stressresistent wie früher. Alte Zellen fallen in ein Ruhestadium, diese produzieren oft entzündungsfördernde Stoffe.</p><p>Bei der osteopathischen Behandlung ist es das Ziel, eine verbesserte Drainage und den Abtransport in den Ausscheidungsorganen zu erreichen.</p>"
-reitertitel = "Osteopathie im Alter"
-[[reitergruppe]]
-reitertext = "<ul><li><p>im Bereich des Bewegungsapparates (Bandscheibenvorfälle, Hexenschuss, Verletzungen, Gelenkschmerzen)</p></li><li><p>im internistischen Bereichen (Reizdarm, Sodbrennen, funktionelle Herzbeschwerden)</p></li><li><p>im Bereich des Kopf (Kopfschmerzen, Mittelohrentzündiingen, Nebenhöhlenentzündungen, Kiefergelenksstörungen, Augenprobleme)</p></li></ul>"
-reitertitel = "Osteopathie für Erwachsene"
 
 +++
