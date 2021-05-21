@@ -28,5 +28,8 @@ icon_link = "https://www.youtube.com/channel/UCX24-D7VN5eDTHXdRSqri1A"
 icon = "/uploads/2021/05/21/standort-icon.png"
 kontakt = ""
 text = "<p><strong>PRAXIS LANGQUAID</strong></p><p>Pfarrer-Schmalhofer-Straße 9<br>84085 Langquaid</p>"
+[[kontakt]]
+icon = "/uploads/2021/05/21/standort-icon.png"
+text = "<p><strong>PRAXIS ROTTENBURG</strong></p><p>Schulstraße 6 <br>84056 Rottenburg</p>"
 
 +++
