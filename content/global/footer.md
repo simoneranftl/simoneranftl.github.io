@@ -31,5 +31,8 @@ text = "<p><strong>PRAXIS LANGQUAID</strong></p><p>Pfarrer-Schmalhofer-Straße 9
 [[kontakt]]
 icon = "/uploads/2021/05/21/standort-icon.png"
 text = "<p><strong>PRAXIS ROTTENBURG</strong></p><p>Schulstraße 6 <br>84056 Rottenburg</p>"
+[[kontakt]]
+icon = "/uploads/2021/05/21/phone.png"
+text = "<p>0 171 - 574 70 63</p>"
 
 +++
