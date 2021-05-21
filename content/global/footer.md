@@ -25,7 +25,7 @@ content = ""
 icon = "youtube alternate"
 icon_link = "https://www.youtube.com/channel/UCX24-D7VN5eDTHXdRSqri1A"
 [[kontakt]]
-icon = ""
+icon = "/uploads/2021/05/21/standort-icon.png"
 kontakt = ""
 text = "<p><strong>PRAXIS LANGQUAID</strong></p><p>Pfarrer-Schmalhofer-Straße 9<br>84085 Langquaid</p>"
 
