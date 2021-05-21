@@ -39,3 +39,5 @@ fields:
     schema:
       format: html-blocks
   label: Textspalte-rechts
+pages:
+- content/vita.md
