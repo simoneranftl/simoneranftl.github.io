@@ -39,8 +39,8 @@ content = ""
 team_einzeln = []
 [kosten]
 headline-kosten_ = "KOSTEN"
-spalte_links = "Gesetzliche Krankenkassen\nViele gesetzliche Krankenkassen bezuschussen die osteopathische\nBehandlung in unterschiedlicher Höhe.\nOb Ihre Krankenkasse sie bei der Kostenübernahme unterstützt können sie in\neiner Liste der finden: bundesverband osteopathie e.v. – bvo oder\nhttp://www.osteokompass.de/patieneninfo-krankenkasse.html\nSie können sich auch direkt auf der Homepage der jeweiligen Krankenkasse\ninformieren.\nIch verfüge über die von den gesetzlichen Krankenkassen geforderten Nachweise\nzur Abrechnung der osteopathischen Leistungen."
-spalte_rechts = "<p>Private Krankenkassen</p><p>Die Abrechnung der osteopathischen Behandlung erfolgt auf Grundlage der</p><p>Gebührenverordnung für Heilpraktiker (GEBÜH). Private Kassen übernehmen in</p><p>der Regel die Kosten für die Behandlung voll.</p><p>Sollten sie Fragen zu Ihrer Verordnung oder zur Abrechnung haben, kontaktieren</p><p>sie mich bitte telefonisch</p>"
+spalte_links = "<p><strong>Gesetzliche Krankenkassen </strong></p><p>Viele gesetzliche Krankenkassen bezuschussen die osteopathische Behandlung in unterschiedlicher Höhe. Ob Ihre Krankenkasse sie bei der Kostenübernahme unterstützt können sie in einer Liste der finden: <strong>bundesverband osteopathie e.v. – bvo</strong> oder <strong>http://www.osteokompass.de/patieneninfo-krankenkasse.html </strong></p><p>Sie können sich auch direkt auf der Homepage der jeweiligen Krankenkasse informieren. </p><p>Ich verfüge über die von den gesetzlichen Krankenkassen geforderten Nachweise zur Abrechnung der osteopathischen Leistungen.</p>"
+spalte_rechts = "<p><strong>Private Krankenkassen</strong></p><p>Die Abrechnung der osteopathischen Behandlung erfolgt auf Grundlage der Gebührenverordnung für Heilpraktiker (GEBÜH). Private Kassen übernehmen in der Regel die Kosten für die Behandlung voll.</p><p>Sollten sie Fragen zu Ihrer Verordnung oder zur Abrechnung haben, kontaktieren Sie mich bitte telefonisch.</p>"
 [kurse]
 kurs-iframe = ""
 titel = ""
