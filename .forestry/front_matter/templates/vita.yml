@@ -1,4 +1,41 @@
 ---
 label: Vita
 hide_body: true
-fields: []
+fields:
+- name: top-picture
+  type: file
+  config:
+    maxSize: 64
+  label: top-picture
+- name: headline
+  type: text
+  config:
+    required: false
+  label: headline
+- name: zitatblock
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: true
+    schema:
+      format: html-blocks
+  label: Zitatblock
+- name: textspalte-links
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: true
+    schema:
+      format: html-blocks
+  label: textspalte-links
+- name: textspalte-rechts
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: true
+    schema:
+      format: html-blocks
+  label: Textspalte-rechts
