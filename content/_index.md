@@ -7,6 +7,9 @@ text1 = "<p>Mein Ziel ist es, dass ich mit jedem Patienten in engem, direkten Ko
 title = "simoneranftl home"
 type = "page"
 [[reitergruppe]]
+reitertext = "<p>Ältere Menschen sind nicht mehr so stressresistent wie früher. Alte Zellen fallen in ein Ruhestadium, diese produzieren oft entzündungsfördernde Stoffe.</p><p>Bei der osteopathischen Behandlung ist es das Ziel, eine verbesserte Drainage und den Abtransport in den Ausscheidungsorganen zu erreichen.</p>"
+reitertitel = "Osteopathie im Alter"
+[[reitergruppe]]
 reitertext = "<ul><li><p>im Bereich des Bewegungsapparates (Bandscheibenvorfälle, Hexenschuss, Verletzungen, Gelenkschmerzen)</p></li><li><p>im internistischen Bereichen (Reizdarm, Sodbrennen, funktionelle Herzbeschwerden)</p></li><li><p>im Bereich des Kopf (Kopfschmerzen, Mittelohrentzündiingen, Nebenhöhlenentzündungen, Kiefergelenksstörungen, Augenprobleme)</p></li></ul>"
 reitertitel = "Osteopathie für Erwachsene"
 
