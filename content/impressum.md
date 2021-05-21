@@ -7,7 +7,8 @@ type = "page"
 weight = 2
 
 +++
-#### **  
+# Impressum
+
 INHALTLICH VERANTWORTLICH gemäß § 55 Abs. 2 RStV:**
 
 Simone Ranftl  
@@ -23,5 +24,5 @@ Web: www.simone-ranft.de
 Konzeption, Design, Umsetzung:  
 [elvira.beck|design](http://elvirabeck-design.de/)
 
-Fotografie:**  
-**[Jens Gerhard Schnabel](https://jgschnabel.com/), München, alle Rechte vorbehalten.
+Fotografie:  
+[Jens Gerhard Schnabel](https://jgschnabel.com/), München, alle Rechte vorbehalten.
