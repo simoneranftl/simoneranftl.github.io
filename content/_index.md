@@ -7,6 +7,9 @@ text1 = "<p>Mein Ziel ist es, dass ich mit jedem Patienten in engem, direkten Ko
 title = "simoneranftl home"
 type = "page"
 [[reitergruppe]]
+reitertext = "<p>Behandlung von Frauen mit Dysfunktionen im gynäkologischen Bereich.</p><p>Nach Operationen wie z. B. :</p><ul><li><p>Hysteroskopie und Abrasio</p></li><li><p>Konisation</p></li><li><p>Laparoskopie</p></li></ul><p>Ich empfehle eine osteopathische Sitzung um entstandenes Narbengewebe zu mobilisieren und die Funktion des Gewebes (Muskel, Faszien, Organ) zu verbessern.</p>"
+reitertitel = "Osteopathie bei Kinderwunsch"
+[[reitergruppe]]
 reitertext = "<p>im Rahmen meiner Behandlung begleite ich die Frauen um sich während der Schwangerschaft an die körperlichen und psychischen Veränderungen anzupassen.</p><ul><li><p>Rückenschmerzen</p></li><li><p>Sodbrennen</p></li><li><p>Ischias Beschwerden</p></li><li><p>Schambein Dysfunktionen</p></li><li><p>Steißbein Dsfunktionen</p></li><li><p>Verdauungsbeschwerden</p></li><li><p>Kribbel-, Taubheitsgefühl in den Händen</p></li><li><p>Kurzatmigkeit</p></li><li><p>Beckenfehlstellung</p></li><li><p>Vorbereitung auf die Geburt (evtl. Beckenasymmetrien beseitigen, Beckenbodenbehandlung)</p></li></ul><p><br></p>"
 reitertitel = "Osteopathie in der Schwangerschaft"
 [[reitergruppe]]
