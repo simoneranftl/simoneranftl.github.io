@@ -1,4 +1,51 @@
 {{ $t := .Site.GetPage "header.md" }} {{ $currentPage := . }}{{$site := .Site}}
 <header>
-  HEADER
+  <div class="ui container">
+    <div id="hcontent">
+      <div id="logonav">
+        <div id="hlogo">
+          <a href="/" id="logolink">
+            <img class="logo" src="{{partial "imgUrl" (dict "img" $t.Params.logo "params" "q_100,h_120" )}}" />
+          </a>
+        </div>
+        <div id="hmenu">
+          <ul id="headermenu">
+            {{ range .Site.Menus.main }}
+            <li class="headermenuitem {{ if or ($currentPage.HasMenuCurrent "main" .) ($currentPage.IsMenuCurrent "main" .) }}active{{ end }}">
+              <a href="{{ .URL }}" title="{{ .Name | plainify}}">
+                <span>{{ .Name | safeHTML }}</span>
+              </a>
+              {{ if .HasChildren }}
+                <div class="sub-menu">
+                      {{ range .Children }}
+                        <div class="sub-menu-item {{ if $currentPage.IsMenuCurrent "main" . }}active{{ end }}">
+                            <a href="{{ .URL }}" class="{{ if $currentPage.IsMenuCurrent "main" . }}active{{ end }}" title="{{ .Title }}">{{replaceRE "\\[.+\\]" "" .Name}}</a>
+                        </div>
+                    {{ end }}
+                </div>
+              {{end}}
+            </li>
+            {{ end }}
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+    
+  
+
+  <div id="mnt">
+    <button class="ui basic icon button" id="mntbt">
+      <i class="bars icon"></i>
+    </button>
+  </div>
+  <div id="headermenumobil" class="mobinit">
+    {{ range .Site.Menus.main }}
+    <div class="headermenuitem {{ if $currentPage.HasMenuCurrent "main" . }}active{{ end }}">
+      <a href="{{ .URL }}" title="{{ .Title }}">
+        <span>{{ .Name | safeHTML }}</span>
+      </a>
+    </div>
+    {{end}}
+  </div>
 </header>

@@ -6,17 +6,17 @@
 @content: rgb(30,30,30);
 
 body{
-  font-family:'Avenir LT W01 35 Light', sans-serif;
+  font-family: 'Source Sans Pro', sans-serif;
   color:@content;
   *:not(i){
-    font-family: 'Avenir LT W01 35 Light', sans-serif;
+    font-family: 'Source Sans Pro', sans-serif;
   }
   background:#f8f8f8!important;
   font-size:14px;
 }
 h1,h2,h3,h4{
-  font-family: 'Avenir LT W01 35 Light', sans-serif;
-  font-weight:normal;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight:600;
   color:@grey;
   em{
     font-style: normal;
@@ -75,5 +75,87 @@ a{
   &:hover{
     text-decoration: underline;
     color:@blue_dark;
+  }
+}
+header{
+  background:grey;
+  padding:2rem 0;
+}
+#mnt{
+  display:none;
+  position:absolute;
+  right:1rem;
+  top:1rem;
+  #mntbt{
+    box-shadow:none!important;
+    i{
+      color:@blue_dark;
+    }
+  }
+  @media (max-width: 720px){
+    display:block;
+  }
+}
+#headermenumobil{
+  display:none;
+  @media (max-width: 720px){
+    display:flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    max-height:0px;
+    overflow:hidden;
+    opacity: 0;
+    transition-property: all;
+    transition-duration: 0.6s;
+    transition-timing-function: ease-in-out;
+    &.mobvis{
+      max-height:1000px;
+      padding:0 2rem 0rem!important;
+      transition-property: all;
+      transition-duration: 0.6s;
+      transition-timing-function: ease-in-out;
+      opacity: 1;
+      margin: 0 -1rem;
+    }
+    .headermenuitem{
+      padding:0 0.5rem;
+      color:@grey;
+      border:none;
+      text-transform:uppercase;
+      font-size:1rem;
+      line-height:2rem;
+      text-align:left;
+    }
+  }
+}
+#logonav{
+  position:relative;
+  display:flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  >*{
+    flex:0 1 20%;
+  }
+}
+#hmenu{
+  position:relative;
+  #headermenu{
+    padding:0;
+    margin:0;
+    display:flex;
+    justify-content: flex-end;
+    li.headermenuitem{
+      list-style-type:none;
+      padding:0 0.25rem;
+      line-height:1.0em;
+      border-right:1px solid @blue;
+      *{
+        line-height:1.0em;
+      }
+      &:last-child{
+        border-right:none;
+      }
+    }
+    margin-bottom:2rem;
   }
 }

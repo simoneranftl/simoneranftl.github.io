@@ -1,5 +1,8 @@
 +++
 headline = "VITA"
+[menu.main]
+name = "Vita"
+weight = 3
 hinweistext = ""
 pfeil = ""
 reitergruppe = []

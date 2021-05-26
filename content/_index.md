@@ -1,4 +1,7 @@
 +++
+[menu.main]
+name = "Home"
+weight = 1
 headline = "OSTEOPATHIE "
 hinweistext = "<p>Es handelt sich hier um Beispiele, die in keinem Fall ein Heilversprechen bedeuten.</p>"
 seo_description = "simoneranftl"
