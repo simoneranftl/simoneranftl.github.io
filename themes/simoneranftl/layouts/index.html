@@ -1,11 +1,40 @@
 {{ define "main" }} {{$p:=.}}
 <div id="home">
-  <div class="titlewrap">
+  <ul class="headerslider">
+    {{ range $x,$img := .Params.slide }}
+    <li>
+      <div style="background:url({{partial "imgUrl" (dict "img" $img "params" "c_fill,q_90,g_auto,w_2500,h_900" )}}) center bottom no-repeat; background-size:cover;"></div>
+    </li>
+    {{end}}
+  </ul>
+  <div class="grey">
     <div class="ui container">
-      <h1>{{.Params.title}}</h1>
+      <div id="intro">
+        {{.Params.text1 | safeHTML}}
+      </div>
+    </div>
+  </div>
+  <div id="reitergruppen">
+    <div class="ui container">
+      <h2>{{.Params.headline}}</h2>
+      <div class="customaccordion">
+        {{range $idx,$elem := .Params.reitergruppe}}
+        <div class="accordionelem {{if eq $idx 0}}active{{end}}">
+          <div class="title">
+            <h3>{{$elem.reitertitel}}</h3>
+          </div>
+          <div class="content">
+            <p>
+              {{$elem.reitertext | safeHTML}}
+            </p>
+          </div>
+        </div>
+        {{end}}
+      </div>
     </div>
   </div>
 </div>
 {{ end }}
+
 
 

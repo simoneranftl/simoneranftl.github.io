@@ -22,19 +22,13 @@ h4 em {
   font-style: normal;
   color: #009dee;
 }
-h1,
-h3 {
-  color: #009dee;
-}
-h2 {
-  color: #027bba;
-}
 ul {
   padding: 0;
-  margin: 0;
+  margin: 0 0 1rem 0;
 }
 ul li {
-  margin: 0;
+  margin: 0 0 0 1em;
+  list-style-position: outside;
 }
 blockquote,
 q {
@@ -79,8 +73,25 @@ a:hover {
   color: #027bba;
 }
 header {
-  background: grey;
+  background: #adadad;
   padding: 2rem 0;
+}
+.customaccordion .content {
+  overflow: hidden;
+  max-height: 0;
+  padding: 0;
+  transition-property: all;
+  transition-duration: 0.6s;
+  transition-timing-function: ease-in-out;
+}
+.customaccordion .title {
+  cursor: pointer;
+}
+.customaccordion .accordionelem.active .content {
+  max-height: 1000px;
+  transition-property: all;
+  transition-duration: 0.6s;
+  transition-timing-function: ease-in-out;
 }
 #mnt {
   display: none;
@@ -154,13 +165,64 @@ header {
 }
 #hmenu #headermenu li.headermenuitem {
   list-style-type: none;
-  padding: 0 0.25rem;
+  padding: 0 0.5rem;
   line-height: 1em;
-  border-right: 1px solid #009dee;
+  border-right: 1px solid black;
 }
 #hmenu #headermenu li.headermenuitem * {
   line-height: 1em;
+  color: black;
 }
 #hmenu #headermenu li.headermenuitem:last-child {
   border-right: none;
+}
+.grey {
+  background: #adadad;
+}
+.customaccordion .content {
+  overflow: hidden;
+  max-height: 0;
+  padding: 0;
+  transition-property: all;
+  transition-duration: 0.6s;
+  transition-timing-function: ease-in-out;
+}
+.customaccordion .title {
+  cursor: pointer;
+}
+.customaccordion .accordionelem.active .content {
+  max-height: 1000px;
+  transition-property: all;
+  transition-duration: 0.6s;
+  transition-timing-function: ease-in-out;
+}
+#home .headerslider li > div {
+  width: 100vw;
+  height: 70vh;
+}
+#home #intro {
+  padding: 2rem 0;
+}
+#home #intro p {
+  text-align: center;
+  font-size: 1.3rem;
+}
+#home #intro p:first-child {
+  font-style: italic;
+  font-size: 1.8rem;
+  position: relative;
+}
+#home #intro p:first-child i {
+  margin-right: 0.5em;
+}
+#home #reitergruppen .accordionelem {
+  border: 1px solid #adadad;
+}
+#home #reitergruppen .accordionelem .title {
+  text-transform: uppercase;
+  text-align: center;
+  padding: 1rem 2rem;
+}
+#home #reitergruppen .accordionelem .content {
+  padding: 1rem 2rem;
 }
