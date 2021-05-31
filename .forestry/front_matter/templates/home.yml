@@ -33,6 +33,11 @@ fields:
 - name: reitergruppe
   type: field_group_list
   fields:
+  - name: farbe
+    type: include
+    config: {}
+    template: farben
+    label: Farbe
   - name: reitertitel
     type: text
     config:
