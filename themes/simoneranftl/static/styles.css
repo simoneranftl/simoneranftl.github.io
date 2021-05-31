@@ -83,6 +83,20 @@ footer {
 footer .logo {
   height: 80px;
 }
+footer .elems {
+  display: flex;
+  justify-content: space-between;
+}
+footer .elems .kelem {
+  display: flex;
+  justify-content: flex-end;
+  margin-left: 1rem;
+}
+footer .elems .kelem img {
+  flex: 0 0 auto;
+  height: 20px;
+  margin-right: 0.5rem;
+}
 .customaccordion .content {
   overflow: hidden;
   max-height: 0;
@@ -258,12 +272,12 @@ footer .logo {
 #home #reitergruppen .accordionelem h3 {
   text-align: center;
   text-transform: uppercase;
+  color: black;
 }
 #home #reitergruppen .accordionelem .title {
   text-transform: uppercase;
   text-align: center;
   padding: 1rem 2rem;
-  background: grey;
 }
 #home #reitergruppen .accordionelem .content {
   padding: 1rem 2rem;

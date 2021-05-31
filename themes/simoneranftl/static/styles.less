@@ -83,6 +83,20 @@ footer{
   .logo{
     height:80px;
   }
+  .elems{
+    display:flex;
+    justify-content: space-between;
+    .kelem{
+      display:flex;
+      justify-content: flex-end;
+      margin-left:1rem;
+      img{
+        flex:0 0 auto;
+        height:20px;
+        margin-right:0.5rem;
+      }
+    }
+  }
 }
 .customaccordion{
   .content{
@@ -271,13 +285,14 @@ footer{
       h3{
         text-align:center;
         text-transform:uppercase;
+        color:black;
       }
       border:1px solid @grey_light;
       .title{
         text-transform:uppercase;
         text-align:center;
         padding:1rem 2rem;
-        background:grey;
+        
       }
       .content{
         padding:1rem 2rem;

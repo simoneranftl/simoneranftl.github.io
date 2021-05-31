@@ -20,13 +20,13 @@
       <div class="customaccordion">
         {{range $idx,$elem := .Params.reitergruppe}}
         <div class="accordionelem {{if eq $idx 0}}active{{else}}inactive{{end}}">
-          <div class="title">
+          <div class="title" style="background-color: rgb({{$elem.farben}});">
             <h3>{{$elem.reitertitel}}</h3>
           </div>
           <div class="content">
             <div class="arrowwrap">
-              <div class="arrleft"></div>
-              <div class="arrright"></div>
+              <div class="arrleft" style="border-top-color: rgb({{$elem.farben}});"></div>
+              <div class="arrright" style="border-top-color: rgb({{$elem.farben}});"></div>
             </div>
             <p>
               {{$elem.reitertext | safeHTML}}
