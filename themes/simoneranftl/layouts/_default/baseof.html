@@ -104,7 +104,9 @@
       $('.accordionelem').click(function () {
         if ($(this).hasClass('active')){
           $(this).removeClass('active');
+          $(this).addClass('inactive');
         }else{
+          $(this).removeClass('inactive');
           $(this).addClass('active');
         }
       });

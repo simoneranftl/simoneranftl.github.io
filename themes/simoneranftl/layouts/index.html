@@ -19,11 +19,15 @@
       <h2>{{.Params.headline}}</h2>
       <div class="customaccordion">
         {{range $idx,$elem := .Params.reitergruppe}}
-        <div class="accordionelem {{if eq $idx 0}}active{{end}}">
+        <div class="accordionelem {{if eq $idx 0}}active{{else}}inactive{{end}}">
           <div class="title">
             <h3>{{$elem.reitertitel}}</h3>
           </div>
           <div class="content">
+            <div class="arrowwrap">
+              <div class="arrleft"></div>
+              <div class="arrright"></div>
+            </div>
             <p>
               {{$elem.reitertext | safeHTML}}
             </p>
@@ -31,6 +35,11 @@
         </div>
         {{end}}
       </div>
+    </div>
+  </div>
+  <div class="ui container">
+    <div id="hinweist">
+      {{.Params.hinweistext | safeHTML}}
     </div>
   </div>
 </div>

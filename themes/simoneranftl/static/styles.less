@@ -77,6 +77,13 @@ header{
   background:@grey_light;
   padding:2rem 0;
 }
+footer{
+  background:@grey_light;
+  padding:2rem 0;
+  .logo{
+    height:80px;
+  }
+}
 .customaccordion{
   .content{
     overflow:hidden;
@@ -202,6 +209,12 @@ header{
       
     }
   }
+  .accordionelem.inactive{
+    .content{
+      padding:0 2rem!important;
+      
+    }
+  }
 }
 #home{
   .headerslider{
@@ -225,16 +238,50 @@ header{
       }
     }
   }
+  .arrowwrap{
+    position:absolute;
+    display:flex;
+    top:0;
+    right:4rem;
+    .arrleft{
+      height:0px;
+      width:0px;
+      border-top:20px solid grey;
+      border-left:40px solid transparent;
+      
+    }
+    .arrright{
+      height:0px;
+      width:0px;
+      border-top:20px solid grey;
+      border-right:40px solid transparent;
+    }
+  }
+  #hinweist{
+    padding:2rem 0;
+  }
   #reitergruppen{
+    h2{
+      padding:2rem 0;
+      text-align:center;
+      text-transform:uppercase;
+      margin:0;
+    }
     .accordionelem{
+      h3{
+        text-align:center;
+        text-transform:uppercase;
+      }
       border:1px solid @grey_light;
       .title{
         text-transform:uppercase;
         text-align:center;
         padding:1rem 2rem;
+        background:grey;
       }
       .content{
         padding:1rem 2rem;
+        position:relative;
       }
     }
   }

@@ -76,6 +76,13 @@ header {
   background: #adadad;
   padding: 2rem 0;
 }
+footer {
+  background: #adadad;
+  padding: 2rem 0;
+}
+footer .logo {
+  height: 80px;
+}
 .customaccordion .content {
   overflow: hidden;
   max-height: 0;
@@ -196,6 +203,9 @@ header {
   transition-duration: 0.6s;
   transition-timing-function: ease-in-out;
 }
+.customaccordion .accordionelem.inactive .content {
+  padding: 0 2rem!important;
+}
 #home .headerslider li > div {
   width: 100vw;
   height: 70vh;
@@ -215,14 +225,47 @@ header {
 #home #intro p:first-child i {
   margin-right: 0.5em;
 }
+#home .arrowwrap {
+  position: absolute;
+  display: flex;
+  top: 0;
+  right: 4rem;
+}
+#home .arrowwrap .arrleft {
+  height: 0px;
+  width: 0px;
+  border-top: 20px solid grey;
+  border-left: 40px solid transparent;
+}
+#home .arrowwrap .arrright {
+  height: 0px;
+  width: 0px;
+  border-top: 20px solid grey;
+  border-right: 40px solid transparent;
+}
+#home #hinweist {
+  padding: 2rem 0;
+}
+#home #reitergruppen h2 {
+  padding: 2rem 0;
+  text-align: center;
+  text-transform: uppercase;
+  margin: 0;
+}
 #home #reitergruppen .accordionelem {
   border: 1px solid #adadad;
+}
+#home #reitergruppen .accordionelem h3 {
+  text-align: center;
+  text-transform: uppercase;
 }
 #home #reitergruppen .accordionelem .title {
   text-transform: uppercase;
   text-align: center;
   padding: 1rem 2rem;
+  background: grey;
 }
 #home #reitergruppen .accordionelem .content {
   padding: 1rem 2rem;
+  position: relative;
 }
