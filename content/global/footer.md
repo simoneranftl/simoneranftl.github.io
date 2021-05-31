@@ -3,7 +3,7 @@ date = "2018-05-25T14:23:18.000+00:00"
 footernav = "<p><a href=\"/impressum\" title=\"\" target=\"_blank\">Impressum</a></p><p><a href=\"/haftungsuasschluss\" title=\"\" target=\"_blank\">Haftungsausschluss</a></p><p><a href=\"/datenschutzerklärung\" title=\"\" target=\"_blank\">Datenschutzerklärung</a></p>"
 hintergrundbild = "/uploads/2020/05/11/footer-bild"
 logo = "/uploads/2021/05/21/logo_simone_ranftl.png"
-newsletter = "<iframe class=\"kursolino_frame\" width=\"100%\" height=\"500\" src=\"https://armin-lausterer.kurs.software/iframe/?&amp;module=newsletter\" frameborder=\"0\"></iframe>"
+newsletter = "<iframe class=\"kursolino_frame\" width=\"100%\" height=\"400\" src=\"https://armin-lausterer.kurs.software/iframe/?&amp;module=newsletter\" frameborder=\"0\"></iframe>"
 title = "Footer"
 uberschrift = "Kontakt"
 [[kontakt]]
