@@ -19,7 +19,7 @@
       <h2>{{.Params.headline}}</h2>
       <div class="customaccordion">
         {{range $idx,$elem := .Params.reitergruppe}}
-        <div class="accordionelem {{if eq $idx 0}}active{{else}}inactive{{end}}">
+        <div class="accordionelem {{if eq $idx 0}}active{{else}}inactive{{end}}" style="border-color: rgb({{$elem.farben}});">
           <div class="title" style="background-color: rgb({{$elem.farben}});">
             <h3>{{$elem.reitertitel}}</h3>
           </div>
