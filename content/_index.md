@@ -9,31 +9,31 @@ type = "page"
 [menu.main]
 weight = 1
 [[reitergruppe]]
-farben = "238/237/236"
+farben = "238,237,236"
 reitertext = "<ul><li><p>im Bereich des Bewegungsapparates (Bandscheibenvorfälle, Hexenschuss, Verletzungen, Gelenkschmerzen)</p></li><li><p>im internistischen Bereichen (Reizdarm, Sodbrennen, funktionelle Herzbeschwerden)</p></li><li><p>im Bereich des Kopf (Kopfschmerzen, Mittelohrentzündiingen, Nebenhöhlenentzündungen, Kiefergelenksstörungen, Augenprobleme)</p></li></ul>"
 reitertitel = "Osteopathie für Erwachsene"
 [[reitergruppe]]
-farben = "218/218/218"
+farben = "218,218,218"
 reitertext = "<p>Behandlung von Frauen mit Dysfunktionen im gynäkologischen Bereich.</p><p>Nach Operationen wie z. B. :</p><ul><li><p>Hysteroskopie und Abrasio</p></li><li><p>Konisation</p></li><li><p>Laparoskopie</p></li></ul><p>Ich empfehle eine osteopathische Sitzung um entstandenes Narbengewebe zu mobilisieren und die Funktion des Gewebes (Muskel, Faszien, Organ) zu verbessern.</p>"
 reitertitel = "Osteopathie bei Kinderwunsch"
 [[reitergruppe]]
-farben = "173/173/173"
+farben = "173,173,173"
 reitertext = "<p>im Rahmen meiner Behandlung begleite ich die Frauen um sich während der Schwangerschaft an die körperlichen und psychischen Veränderungen anzupassen.</p><ul><li><p>Rückenschmerzen</p></li><li><p>Sodbrennen</p></li><li><p>Ischias Beschwerden</p></li><li><p>Schambein Dysfunktionen</p></li><li><p>Steißbein Dsfunktionen</p></li><li><p>Verdauungsbeschwerden</p></li><li><p>Kribbel-, Taubheitsgefühl in den Händen</p></li><li><p>Kurzatmigkeit</p></li><li><p>Beckenfehlstellung</p></li><li><p>Vorbereitung auf die Geburt (evtl. Beckenasymmetrien beseitigen, Beckenbodenbehandlung)</p></li></ul><p><br></p>"
 reitertitel = "Osteopathie in der Schwangerschaft"
 [[reitergruppe]]
-farben = "157/157/161"
+farben = "157,157,161"
 reitertext = "<ul><li><p>Dreimonatskoliken</p></li><li><p>Spuck-und Schreikinder</p></li><li><p>Schlafprobleme</p></li><li><p>Kopfschiefhaltung/Torticollis</p></li><li><p>Fehlhaltung/Skoliose/Fußfehlstellungen</p></li><li><p>verstopfter Tränenkanal</p></li><li><p>Stillprobleme</p></li><li><p>Hüftdysplasien</p></li><li><p>chronische Mittelohrentzündungen</p></li><li><p>Lern-und Konzentrationsstörungen</p></li><li><p>Bettnäsen</p></li></ul>"
 reitertitel = "Osteopathie für Kinder und Babys"
 [[reitergruppe]]
-farben = "124/124/124"
+farben = "124,124,124"
 reitertext = "<p>Ältere Menschen sind nicht mehr so stressresistent wie früher. Alte Zellen fallen in ein Ruhestadium, diese produzieren oft entzündungsfördernde Stoffe.</p><p>Bei der osteopathischen Behandlung ist es das Ziel, eine verbesserte Drainage und den Abtransport in den Ausscheidungsorganen zu erreichen.</p>"
 reitertitel = "Osteopathie im Alter"
 [[reitergruppe]]
-farben = "108/108/110"
+farben = "108,108,110"
 reitertext = "<p>Diese Patienten befinden sich häufig in einer Vagotonie. Das bedeutet, dass sich das Gleichgewicht des vegetativen Nervensystems verändert und die Drüsenfunktion im Körper eher eine Unterfunktion aufweist.</p><p>Die Osteopathie zielt darauf ab, die Vitalität im Körper des Patienten zu verbessern und eine Stimulation in diesen Bereichen zu erreichen. In osteopathischen Hypothesen wird beschreiben, dass eine Blockade der Wirbelsäule der mögliche Auslöser für eine Depression sein kann.</p>"
 reitertitel = "Osteopathie bei Depression und Angstzuständen"
 [[reitergruppe]]
-farben = "105/106/113"
+farben = "105,106,113"
 reitertext = "<p>Psychische Belastungen können als körperliches Symptom in Erscheinung treten. Beschwerdebilder wie Schwindel, Schmerzen im Bereich der Wirbelsäule (es bestehen direkte Verbindungen der WS-Faszie zum Gefühlszentrum im Gehirn) und Magen-Darm-Beschwerden können sich dabei vorkommen.</p>"
 reitertitel = "Osteopathie bei psychsomatischen Beschwerden"
 
