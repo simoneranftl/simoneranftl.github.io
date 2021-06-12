@@ -7,8 +7,6 @@ type = "page"
 weight = 2
 
 +++
-# Impressum
-
 INHALTLICH VERANTWORTLICH gemäß § 55 Abs. 2 RStV:**
 
 Simone Ranftl  
