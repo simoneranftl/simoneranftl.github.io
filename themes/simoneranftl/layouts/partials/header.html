@@ -31,15 +31,8 @@
       </div>
     </div>
   </div>
-    
-  
 
-  <div id="mnt">
-    <button class="ui basic icon button" id="mntbt">
-      <i class="bars icon"></i>
-    </button>
-  </div>
-  <div id="headermenumobil" class="mobinit">
+  <div id="headermenumobil" class="mobvis">
     {{ range .Site.Menus.main }}
     <div class="headermenuitem {{ if $currentPage.HasMenuCurrent "main" . }}active{{ end }}">
       <a href="{{ .URL }}" title="{{ .Title }}">

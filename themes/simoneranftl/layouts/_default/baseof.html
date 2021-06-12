@@ -65,18 +65,6 @@
         // slideshow
         autoDirection: 'next'
       });
-      $('#mntbt').click(function () {
-        if ($('#headermenumobil').hasClass('mobvis')) {
-          $('#headermenumobil').removeClass('mobvis');
-          $('#mntbt i').addClass('bars');
-          $('#mntbt i').removeClass('remove');
-        } else {
-          $('#headermenumobil').addClass('mobvis');
-          $('#mntbt i').removeClass('bars');
-          $('#mntbt i').addClass('remove');
-        }
-
-      });
       $('.morebutton.detail').click(function () {
         var target=$(this).attr('data-target');
         if ($('#'+target).hasClass('small')){

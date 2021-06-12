@@ -24,9 +24,17 @@ h4 em {
 }
 ul {
   padding: 0;
-  margin: 0 0 1rem 0;
+  margin: 0 0 0 0;
 }
 ul li {
+  margin: 0 0 0 0;
+  list-style-position: outside;
+}
+.content ul {
+  padding: 0;
+  margin: 0 0 1rem 0;
+}
+.content ul li {
   margin: 0 0 0 1em;
   list-style-position: outside;
 }
@@ -86,6 +94,15 @@ footer .logo {
 footer .elems {
   display: flex;
   justify-content: space-between;
+}
+@media (max-width: 720px) {
+  footer .elems {
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+  footer .elems img {
+    max-width: 90vw;
+  }
 }
 footer .elems .kelem {
   margin: 0 0 0 1rem;
@@ -171,6 +188,9 @@ footer .elems .kelem ul li {
     text-align: left;
   }
 }
+.sy-prev {
+  margin: 0;
+}
 #logonav {
   position: relative;
   display: flex;
@@ -180,8 +200,16 @@ footer .elems .kelem ul li {
 #logonav > * {
   flex: 0 1 20%;
 }
+#logonav img {
+  max-width: 90vw;
+}
 #hmenu {
   position: relative;
+}
+@media (max-width: 720px) {
+  #hmenu {
+    display: none;
+  }
 }
 #hmenu #headermenu {
   padding: 0;
@@ -230,6 +258,12 @@ footer .elems .kelem ul li {
 #home .headerslider li > div {
   width: 100vw;
   height: 70vh;
+}
+@media (max-width: 720px) {
+  #home .headerslider li > div {
+    width: 100vw;
+    height: 50vh;
+  }
 }
 #home #intro {
   padding: 2rem 0;
@@ -341,6 +375,22 @@ footer .elems .kelem ul li {
 }
 .subpage.osteopathie #imgsx #imgsx_r1t {
   min-height: 20vh;
+}
+@media (max-width: 720px) {
+  .subpage.osteopathie #imgsx {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+  }
+  .subpage.osteopathie #imgsx > * {
+    flex: 1 1 auto;
+  }
+  .subpage.osteopathie #imgsx #imgsx_l {
+    min-height: 70vh;
+  }
+  .subpage.osteopathie #imgsx #imgsx_r {
+    display: none;
+  }
 }
 .subpage.vita #topimg {
   height: 50vh;
