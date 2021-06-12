@@ -1,34 +1,26 @@
+{{ define "main" }}
 <div class="subpage vita">
+  <div id="topimg" style="background: url({{partial "imgUrl" (dict "img" .Params.top_picture "params" "c_fill,w_2500,h_800,g_auto" )}}) center center no-repeat; background-size:cover"></div>
     <div class="titlewrap">
       <div class="ui container">
-        <h1>{{.Params.vita}}</h1>
+        <h1>{{.Params.title}}</h1>
       </div>
     </div>
-    <div class="ui container standard">
-        <div class="content">
-            <img class="timg" src="{{partial "imgUrl" (dict "img" .Params.top_picture "params" "c_scale,f_auto,w_1200" )}} "/> 
-            <h3 class="hd">{{.Params.title}}</h3>
-            <div class="grey">
-                <div class="ui container">
-                  <div id="intro">
-                    {{.Params.zitatblock |safeHTML}}
-                  </div>
-                </div>
-              </div>
-        </div>
+    <div class="ui container">
+      <div id="intro">
+        {{.Params.zitatblock | safeHTML}}
+      </div>
     </div>
+  <div class="ui container">
     <div class="ui two column stackable grid">
-        {{range .Params.text1}}
-        <div class="column">
-            {{.textspalte_links | safeHTML}}
-          </section>
-          <section class="ct ks">
-            {{.textspalte_rechts | safeHTML}}
-          </section>
-        </div>
-        {{end}}
+      <div class="column">
+          {{.Params.textspalte_links | safeHTML}}
+      </div>
+      <div class="column">
+          {{.Params.textspalte_rechts | safeHTML}}
       </div>
     </div>
+  </div>
+  </div>
 </div>
-
-
+{{end}}

@@ -16,7 +16,7 @@ fields:
     schema:
       format: html-blocks
   label: Zitatblock
-- name: textspalte-links
+- name: textspalte_links
   type: textarea
   default: ''
   config:
@@ -25,7 +25,7 @@ fields:
     schema:
       format: html-blocks
   label: textspalte-links
-- name: textspalte-rechts
+- name: textspalte_rechts
   type: textarea
   default: ''
   config:
