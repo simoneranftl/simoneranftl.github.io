@@ -51,7 +51,7 @@ fields:
   type: field_group
   config: {}
   fields:
-  - name: headline-kosten_
+  - name: headline_kosten
     type: text
     config:
       required: false

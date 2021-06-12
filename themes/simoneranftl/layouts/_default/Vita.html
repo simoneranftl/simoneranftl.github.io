@@ -6,12 +6,12 @@
     </div>
     <div class="ui container standard">
         <div class="content">
-            <img class="timg" src="{{partial "imgUrl" (dict "img" .Params.top-picture "params" "c_scale,f_auto,w_1200" )}} "/> 
+            <img class="timg" src="{{partial "imgUrl" (dict "img" .Params.top_picture "params" "c_scale,f_auto,w_1200" )}} "/> 
             <h3 class="hd">{{.Params.title}}</h3>
             <div class="grey">
                 <div class="ui container">
                   <div id="intro">
-                    {{.Params.zitatblock | safeHTML}}
+                    {{.Params.zitatblock |safeHTML}}
                   </div>
                 </div>
               </div>
@@ -20,10 +20,10 @@
     <div class="ui two column stackable grid">
         {{range .Params.text1}}
         <div class="column">
-            {{.textspalte-links|safehtml}}
+            {{.textspalte_links | safeHTML}}
           </section>
           <section class="ct ks">
-            {{.textspalte-rechts|safehtml}}
+            {{.textspalte_rechts | safeHTML}}
           </section>
         </div>
         {{end}}

@@ -66,11 +66,11 @@ blockquote {
   }
 }
 a {
-  color: #027bba;
+  color: #1e1e1e;
 }
 a:hover {
   text-decoration: underline;
-  color: #027bba;
+  color: #1e1e1e;
 }
 header {
   background: #adadad;
@@ -88,14 +88,20 @@ footer .elems {
   justify-content: space-between;
 }
 footer .elems .kelem {
-  display: flex;
-  justify-content: flex-end;
-  margin-left: 1rem;
+  margin: 0 0 0 1rem;
 }
-footer .elems .kelem img {
+footer .elems .kelem .inner {
+  display: flex;
+  justify-content: flex-start;
+  margin: 0 0 0.5rem 0;
+}
+footer .elems .kelem .inner img {
   flex: 0 0 auto;
   height: 20px;
   margin-right: 0.5rem;
+}
+footer .elems .kelem ul li {
+  list-style-type: none;
 }
 .customaccordion .content {
   overflow: hidden;
@@ -282,4 +288,50 @@ footer .elems .kelem img {
 #home #reitergruppen .accordionelem .content {
   padding: 1rem 2rem;
   position: relative;
+}
+.subpage {
+  padding: 0 0 2rem 0;
+}
+.subpage h1 {
+  text-align: center;
+  margin: 2rem 0;
+}
+.subpage h2 {
+  text-align: center;
+  margin: 1rem 0;
+}
+.subpage.osteopathie #text1,
+.subpage.osteopathie #text_unten {
+  text-align: center;
+  margin: 0 0 2rem 0;
+}
+.subpage.osteopathie #textmitte {
+  margin: 0 0 0 0;
+}
+.subpage.osteopathie #imgsx {
+  display: flex;
+  justify-content: space-between;
+}
+.subpage.osteopathie #imgsx > * {
+  flex: 1 1 auto;
+}
+.subpage.osteopathie #imgsx #imgsx_l {
+  min-height: 70vh;
+}
+.subpage.osteopathie #imgsx #imgsx_r {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.subpage.osteopathie #imgsx #imgsx_r > * {
+  flex: 1 1 auto;
+}
+.subpage.osteopathie #imgsx #imgsx_r > div {
+  display: flex;
+}
+.subpage.osteopathie #imgsx #imgsx_r .imgsx_rb {
+  flex: 1 1 auto;
+}
+.subpage.osteopathie #imgsx #imgsx_r1t {
+  min-height: 20vh;
 }

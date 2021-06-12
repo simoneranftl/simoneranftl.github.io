@@ -1,0 +1,51 @@
+{{ define "main" }}
+<div class="subpage osteopathie">
+  <div class="titlewrap">
+    <div class="ui container">
+      <h1>{{.Params.title}}</h1>
+    </div>
+  </div>
+  <div class="ui container standard">
+    <div class="content">
+      <div class="ui container">
+        <div id="text1">{{.Params.text1 | safeHTML}}</div>
+      </div>
+    </div>
+  </div>
+  <div class="ui container standard">
+    <div id="textmitte" class="ui two column stackable grid">
+      <div class="column">{{.Params.textspalte1|safeHTML}}</div>
+      <div class="column">{{.Params.textspalte2|safeHTML}}</div>
+    </div>
+  </div>
+  <div class="ui container standard">
+    <div id="text_unten">{{.Params.text_unten | safeHTML}}</div>
+  </div>
+  <div class="ui container">
+    <div id="imgsx">
+      {{ range $x,$img := .Params.bildergalerie_osteopathie }} {{if eq $x 0}}
+      <div id="imgsx_l" style="background: url({{partial "imgUrl" (dict "img" $img "params" "c_fill,h_1600,w_900,g_auto" )}}) center center no-repeat; background-size:cover"></div>
+      {{end}}{{end}}
+      <div id="imgsx_r">
+        {{ range $x,$img := .Params.bildergalerie_osteopathie }} {{if eq $x 1}}
+        <div id="imgsx_r1t" style="background: url({{partial "imgUrl" (dict "img" $img "params" "c_fill,h_900,w_1600,g_auto" )}}) center center no-repeat; background-size:cover"></div>
+        {{end}}{{end}}
+        <div>
+          {{ range $x,$img := .Params.bildergalerie_osteopathie }} {{if gt $x 1}}
+          <div class="imgsx_rb" style="background: url({{partial "imgUrl" (dict "img" $img "params" "c_fill,h_900,w_900,g_auto" )}}) center center no-repeat; background-size:cover"></div>
+          {{end}}{{end}}
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="ui container">
+    {{with .Params.kosten}}
+    <h2>{{.headline_kosten}}</h2>
+    <div class="ui two column stackable grid">
+      <div class="column">{{.spalte_links|safeHTML}}</div>
+      <div class="column">{{.spalte_rechts|safeHTML}}</div>
+    </div>
+    {{end}}
+  </div>
+</div>
+{{end}}
