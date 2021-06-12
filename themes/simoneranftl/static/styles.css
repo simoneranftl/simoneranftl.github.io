@@ -296,10 +296,16 @@ footer .elems .kelem ul li {
 .subpage h1 {
   text-align: center;
   margin: 2rem 0;
+  text-transform: uppercase;
+  font-weight: normal;
+  font-size: 1.8rem;
 }
 .subpage h2 {
   text-align: center;
   margin: 1rem 0;
+  text-transform: uppercase;
+  font-weight: normal;
+  font-size: 1.5rem;
 }
 .subpage.osteopathie #text1,
 .subpage.osteopathie #text_unten {
@@ -339,6 +345,10 @@ footer .elems .kelem ul li {
 .subpage.vita #topimg {
   height: 50vh;
 }
+.subpage.vita .withstrongs strong {
+  font-weight: normal;
+  font-size: 1.7rem;
+}
 .subpage.vita #intro {
   padding: 0 0 2rem 0;
 }
@@ -353,4 +363,21 @@ footer .elems .kelem ul li {
 }
 .subpage.vita #intro p:first-child i {
   margin-right: 0.5em;
+}
+.subpage.kontakt {
+  padding-bottom: 0;
+}
+.subpage.kontakt .grey {
+  padding: 0 0 2rem 0;
+}
+.subpage.kontakt h2 {
+  text-align: left;
+}
+.subpage.kontakt #pimgs {
+  display: flex;
+  justify-content: space-between;
+}
+.subpage.kontakt #pimgs > * {
+  flex: 1 1 auto;
+  height: 50vh;
 }

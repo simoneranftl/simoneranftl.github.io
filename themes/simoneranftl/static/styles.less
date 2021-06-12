@@ -315,10 +315,16 @@ footer{
   h1{
     text-align:center;
     margin:2rem 0;
+    text-transform:uppercase;
+    font-weight:normal;
+    font-size:1.8rem;
   }
   h2{
     text-align:center;
     margin:1rem 0;
+    text-transform:uppercase;
+    font-weight:normal;
+    font-size:1.5rem;
   }
   &.osteopathie{
     #text1,#text_unten{
@@ -360,6 +366,12 @@ footer{
     #topimg{
       height:50vh;
     }
+    .withstrongs{
+      strong{
+        font-weight:normal;
+        font-size:1.7rem;
+      }
+    }
     #intro{
       padding:0 0 2rem 0;
       p{
@@ -373,6 +385,23 @@ footer{
             margin-right:0.5em;
           }
         }
+      }
+    }
+  }
+  &.kontakt{
+    .grey{
+      padding: 0 0 2rem 0;
+    }
+    padding-bottom:0;
+    h2{
+      text-align:left;
+    }
+    #pimgs{
+      display:flex;
+      justify-content: space-between;
+      >*{
+        flex: 1 1 auto;
+        height:50vh;
       }
     }
   }

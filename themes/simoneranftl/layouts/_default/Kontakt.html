@@ -1,14 +1,28 @@
 {{ define "main" }}
 <div class="subpage kontakt">
   <div class="titlewrap">
+      <div class="ui container">
+        <h1>{{.Params.title}}</h1>
+      </div>
+    </div>
     <div class="ui container">
-      <h1>{{.headline}}</h1>
+      
+    </div>
+  <div class="grey">
+    <div class="ui container">
+      <div class="ui two column stackable grid">
+        <div class="column withstrongs">
+            {{.Params.textlinks | safeHTML}}
+        </div>
+        <div class="column withstrongs">
+            {{.Params.textrechts_ | safeHTML}}
+        </div>
+      </div>
     </div>
   </div>
-  <div class="ui container standard">
-    <div class="content ks">
-      {{.Content}}
-    </div>
+  <div id="pimgs">
+    <div style="background: url({{partial "imgUrl" (dict "img" .Params.bildlinks "params" "c_fill,h_1600,w_800,g_auto" )}}) center center no-repeat; background-size:cover"></div>
+    <div style="background: url({{partial "imgUrl" (dict "img" .Params.bildrechts "params" "c_fill,h_1600,w_800,g_auto" )}}) center center no-repeat; background-size:cover"></div>
   </div>
 </div>
-{{ end }}
+{{end}}
