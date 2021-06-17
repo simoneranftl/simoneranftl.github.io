@@ -1,19 +1,17 @@
 +++
-
-layout = "Osteopathie"
 bildergalerie_osteopathie = ["/uploads/2021/05/21/jgs_180720_06681_2250px.jpg", "/uploads/2021/05/21/jgs_180720_06602_2250px.jpg", "/uploads/2021/05/21/jgs_180720_06843_2250px.jpg", "/uploads/2021/05/21/jgs_180720_07518_2250px.jpg", "/uploads/2021/05/21/jgs_180720_06622_2250px.jpg"]
 headline = "Osteopathie"
-text1 = "<p>Jeder Organismus steht in einer Art <strong>Gleichgewicht</strong>, dass nennt man <strong>Gesundheit</strong>. Bevor man eine Krankheit als solches benennt gab es zuvor einen Zustand des <strong>Ungleichgewichtes</strong>. Osteopathie sucht für dieses Ungleichgewicht die Ursache. Mit holistischen Ansatz sowie mit der psychischen, physischen und sozialen Betrachtung der Person.</p>"
+layout = "Osteopathie"
+text1 = "<p>Jeder Organismus steht in einer Art <strong>Gleichgewicht</strong>, dass nennt man <strong>Gesundheit</strong>. Bevor man eine Krankheit als solches benennt, gab es zuvor einen Zustand des <strong>Ungleichgewichtes</strong>. Osteopathie sucht für dieses Ungleichgewicht die Ursache. Mit holistischen Ansatz sowie mit der psychischen, physischen und sozialen Betrachtung der Person.</p>"
 text_unten = "Die Osteopathie ist die Medizinphilosophie in ihrer Gesamtheit egal mit welchen Techniken (Craniosakrale-, viscerale-, praietale Osteopathie, Chiropraktik) gearbeitet wird.\nDie Ausbildung kann von Ärzten, Physioherapeuten und Heilpraktikern absolviert werden. Desweiteren kann ein Masterstudiengang in Osteopathie nach dem Abitur abgeschlossen werden."
 textspalte1 = "<p><strong>Der Entdecker A.T. Still (1828-1917) in Amerika</strong></p><ul><li><p>Er beginnt die Hand als zentrales, diagnostisches Mittel einzusetzen. Neben der Auseindandersetzung mit der Anatomie und den komplexen Zusammenhängen im Körper, beschäftigt er sich mit alternativen Heilmethoden und ausgiebigen Naturbeobachtungen. </p></li></ul><p><strong>Still (Begründer der Osteopathie) stellt die Osteopathie auf folgende Basisprinzipien:</strong></p><ul><li><p>Der <strong>Körper</strong> arbeitet als eine völlige Einheit.</p></li><li><p>Der <strong>Körper</strong> besitzt <strong>selbstheilende</strong> und <strong>selbstregulierende</strong> Mechanismen.</p></li></ul>"
-textspalte2 = "<ul><li><p><strong>Struktur</strong> und <strong>Funktion</strong> beeinflussen sich gegenseitig</p></li><li><p>Anormaler <strong>Druck</strong> in einem Teil des <strong>Körpers</strong> führt zu anormalem <strong>Druck und Anspannung</strong> in anderen Teilen des Körpers</p></li></ul><p><strong>J.M. Littlejohn (1865-1947)</strong></p><p>• Beginnt die Osteopathie wissenschaftlich zu belegen.</p><p><strong>W.G. Sutherland (1873-1954)</strong></p><p>• Entwickelt das Konzept der kraniosakralen Osteopathie.</p>"
+textspalte2 = "<ul><li><p><strong>Struktur</strong> und <strong>Funktion</strong> beeinflussen sich gegenseitig</p></li><li><p>Anormaler <strong>Druck</strong> in einem Teil des <strong>Körpers</strong> führt zu anormalem <strong>Druck und Anspannung</strong> in anderen Teilen des Körpers</p></li></ul><p></p><p><strong>J.M. Littlejohn (1865-1947)</strong></p><p>• Beginnt die Osteopathie wissenschaftlich zu belegen.</p><p><strong>W.G. Sutherland (1873-1954)</strong></p><p>• Entwickelt das Konzept der kraniosakralen Osteopathie.</p>"
 title = "Osteopathie"
 [kosten]
 headline_kosten = "KOSTEN"
 spalte_links = "<p><strong>Gesetzliche Krankenkassen </strong></p><p>Viele gesetzliche Krankenkassen bezuschussen die osteopathische Behandlung in unterschiedlicher Höhe. Ob Ihre Krankenkasse sie bei der Kostenübernahme unterstützt können sie in einer Liste der finden: <strong>bundesverband osteopathie e.v. – bvo</strong> oder <strong>http://www.osteokompass.de/patieneninfo-krankenkasse.html </strong></p><p>Sie können sich auch direkt auf der Homepage der jeweiligen Krankenkasse informieren. </p><p>Ich verfüge über die von den gesetzlichen Krankenkassen geforderten Nachweise zur Abrechnung der osteopathischen Leistungen.</p>"
 spalte_rechts = "<p><strong>Private Krankenkassen</strong></p><p>Die Abrechnung der osteopathischen Behandlung erfolgt auf Grundlage der Gebührenverordnung für Heilpraktiker (GEBÜH). Private Kassen übernehmen in der Regel die Kosten für die Behandlung voll.</p><p>Sollten sie Fragen zu Ihrer Verordnung oder zur Abrechnung haben, kontaktieren Sie mich bitte telefonisch.</p>"
 [menu.main]
-name = "Osteopathie"
 weight = 2
 
 +++
