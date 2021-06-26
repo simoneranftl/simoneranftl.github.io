@@ -21,8 +21,8 @@
     </div>
   </div>
   <div id="pimgs">
-    <div style="background: url({{partial "imgUrl" (dict "img" .Params.bildlinks "params" "c_fill,h_1600,w_800,g_auto" )}}) center center no-repeat; background-size:cover"></div>
-    <div style="background: url({{partial "imgUrl" (dict "img" .Params.bildrechts "params" "c_fill,h_1600,w_800,g_auto" )}}) center center no-repeat; background-size:cover"></div>
+    <div style="background: url({{partial "imgUrl" (dict "img" .Params.bildlinks "params" "" )}}) center top no-repeat; background-size:contain"></div>
+    <div style="background: url({{partial "imgUrl" (dict "img" .Params.bildrechts "params" "" )}}) center top no-repeat; background-size:contain"></div>
   </div>
 </div>
 {{end}}

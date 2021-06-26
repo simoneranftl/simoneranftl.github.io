@@ -81,11 +81,11 @@ a:hover {
   color: #1e1e1e;
 }
 header {
-  background: #adadad;
+  background: #dedede;
   padding: 2rem 0;
 }
 footer {
-  background: #adadad;
+  background: #dedede;
   padding: 2rem 0;
 }
 footer .logo {
@@ -122,6 +122,9 @@ footer .elems .kelem .inner img {
 footer .elems .kelem ul li {
   list-style-type: none;
 }
+.imgstarter {
+  cursor: pointer;
+}
 .customaccordion .content {
   overflow: hidden;
   max-height: 0;
@@ -147,9 +150,10 @@ footer .elems .kelem ul li {
 }
 #mnt #mntbt {
   box-shadow: none!important;
+  background: none!important;
 }
 #mnt #mntbt i {
-  color: #027bba;
+  color: #1e1e1e;
 }
 @media (max-width: 720px) {
   #mnt {
@@ -235,7 +239,7 @@ footer .elems .kelem ul li {
   border-right: none;
 }
 .grey {
-  background: #adadad;
+  background: #dedede;
 }
 .customaccordion .content {
   overflow: hidden;
@@ -310,7 +314,7 @@ footer .elems .kelem ul li {
   margin: 0;
 }
 #home #reitergruppen .accordionelem {
-  border: 1px solid #adadad;
+  border: 1px solid #dedede;
 }
 #home #reitergruppen .accordionelem h3 {
   text-align: center;

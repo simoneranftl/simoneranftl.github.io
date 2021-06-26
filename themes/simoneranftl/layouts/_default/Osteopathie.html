@@ -24,17 +24,28 @@
   <div class="ui container">
     <div id="imgsx">
       {{ range $x,$img := .Params.bildergalerie_osteopathie }} {{if eq $x 0}}
-      <div id="imgsx_l" style="background: url({{partial "imgUrl" (dict "img" $img "params" "c_fill,h_1600,w_900,g_auto" )}}) center center no-repeat; background-size:cover"></div>
+      <div id="imgsx_l" class="imgstarter" data-modal="imgg_o" data-idx="{{$x}}" style="background: url({{partial "imgUrl" (dict "img" $img "params" "c_fill,h_1600,w_900,g_auto" )}}) center center no-repeat; background-size:cover"></div>
       {{end}}{{end}}
       <div id="imgsx_r">
         {{ range $x,$img := .Params.bildergalerie_osteopathie }} {{if eq $x 1}}
-        <div id="imgsx_r1t" style="background: url({{partial "imgUrl" (dict "img" $img "params" "c_fill,h_900,w_1600,g_auto" )}}) center center no-repeat; background-size:cover"></div>
+        <div id="imgsx_r1t" class="imgstarter" data-modal="imgg_o" data-idx="{{$x}}" style="background: url({{partial "imgUrl" (dict "img" $img "params" "c_fill,h_900,w_1600,g_auto" )}}) center center no-repeat; background-size:cover"></div>
         {{end}}{{end}}
         <div>
           {{ range $x,$img := .Params.bildergalerie_osteopathie }} {{if gt $x 1}}
-          <div class="imgsx_rb" style="background: url({{partial "imgUrl" (dict "img" $img "params" "c_fill,h_900,w_900,g_auto" )}}) center center no-repeat; background-size:cover"></div>
+          <div class="imgsx_rb imgstarter"  data-modal="imgg_o" data-idx="{{$x}}" style="background: url({{partial "imgUrl" (dict "img" $img "params" "c_fill,h_900,w_900,g_auto" )}}) center center no-repeat; background-size:cover"></div>
           {{end}}{{end}}
         </div>
+      </div>
+    </div>
+    <div class="ui modal" id="modal_imgg_o">
+      <div class="content">
+        <ul id="gal_imgg_o" class="imggalslider">
+          {{ range $x,$img := .Params.bildergalerie_osteopathie }}
+          <li>
+            <img src="{{partial "imgUrl" (dict "img" $img "params" "c_fill,h_1600,w_1600,f_auto,g_auto" )}} " />
+          </li>
+          {{end}}
+        </ul>
       </div>
     </div>
   </div>

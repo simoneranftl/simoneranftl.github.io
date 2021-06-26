@@ -1,7 +1,7 @@
 @blue:rgb(0, 157, 238);
 @blue_dark: rgb(2, 123, 186);
 @grey:rgb(95, 97, 101);
-@grey_light:rgb(173, 173, 173);
+@grey_light:rgb(222,222,222);
 @grey_light2:rgba(114,114,114,0.1);
 @content: rgb(30,30,30);
 
@@ -126,6 +126,9 @@ footer{
     }
   }
 }
+.imgstarter{
+  cursor:pointer;
+}
 .customaccordion{
   .content{
     overflow:hidden;
@@ -155,8 +158,9 @@ footer{
   top:1rem;
   #mntbt{
     box-shadow:none!important;
+    background:none!important;
     i{
-      color:@blue_dark;
+      color:@content;
     }
   }
   @media (max-width: 720px){

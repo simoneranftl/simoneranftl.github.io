@@ -98,6 +98,44 @@
           $(this).addClass('active');
         }
       });
+      $('.imggal .gimg, .imgstarter').click(function (el) {
+        var mid = el.currentTarget.dataset.modal;
+        var idx = el.currentTarget.dataset.idx;
+        $('#modal_' + mid).modal({ inverted: true }).modal('show');
+        $('#gal_' + mid).slippry({
+          // general elements & wrapper
+          slippryWrapper: '<div class="sy-box portfolio-slider" />', // wrapper to wrap everything, including pager
+
+          // options
+          adaptiveHeight: true, // height of the sliders adapts to current slide
+          start: parseInt(idx,10)+1, // num (starting from 1), random
+          loop: true, // first -> last & last -> first arrows
+          captionsSrc: 'li',
+          captions: 'custom', // Position: overlay, below, custom, false
+          captionsEl: '.external-captions',
+
+          // transitions
+          transition: 'kenburns', // fade, horizontal, kenburns, false
+          easing: 'linear', // easing to use in the animation [(see... [jquery www])]
+          continuous: true,
+
+          // slideshow
+          auto: true,
+          pager: false,
+        });
+      });
+      $('#mntbt').click(function () {
+        if ($('#headermenumobil').hasClass('mobvis')) {
+          $('#headermenumobil').removeClass('mobvis');
+          $('#mntbt i').addClass('bars');
+          $('#mntbt i').removeClass('remove');
+        } else {
+          $('#headermenumobil').addClass('mobvis');
+          $('#mntbt i').removeClass('bars');
+          $('#mntbt i').addClass('remove');
+        }
+
+      });
     });
   </script>
 </body>
