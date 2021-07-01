@@ -10,7 +10,7 @@ type = "page"
 weight = 1
 [[reitergruppe]]
 farben = "238,237,236"
-reitertext = "<ul><li><p>im Bereich des Bewegungsapparates (Bandscheibenvorfälle, Hexenschuss, Verletzungen, Gelenkschmerzen)</p></li><li><p>im internistischen Bereichen (Reizdarm, Sodbrennen, funktionelle Herzbeschwerden)</p></li><li><p>im Bereich des Kopf (Kopfschmerzen, Mittelohrentzündiingen, Nebenhöhlenentzündungen, Kiefergelenksstörungen, Augenprobleme)</p></li></ul>"
+reitertext = "<ul><li><p>im Bereich des Bewegungsapparates (Bandscheibenvorfälle, Hexenschuss, Verletzungen, Gelenkschmerzen)</p></li><li><p>im internistischen Bereichen (Reizdarm, Sodbrennen, funktionelle Herzbeschwerden)</p></li><li><p>im Bereich des Kopf (Kopfschmerzen, Mittelohrentzündungen, Nebenhöhlenentzündungen, Kiefergelenksstörungen, Augenprobleme)</p></li></ul>"
 reitertitel = "Osteopathie für Erwachsene"
 [[reitergruppe]]
 farben = "218,218,218"
