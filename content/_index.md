@@ -22,7 +22,7 @@ reitertext = "<p>im Rahmen meiner Behandlung begleite ich die Frauen um sich wä
 reitertitel = "Osteopathie in der Schwangerschaft"
 [[reitergruppe]]
 farben = "157,157,161"
-reitertext = "<ul><li><p>Dreimonatskoliken</p></li><li><p>Spuck-und Schreikinder</p></li><li><p>Schlafprobleme</p></li><li><p>Kopfschiefhaltung/Torticollis</p></li><li><p>Fehlhaltung/Skoliose/Fußfehlstellungen</p></li><li><p>verstopfter Tränenkanal</p></li><li><p>Stillprobleme</p></li><li><p>Hüftdysplasien</p></li><li><p>chronische Mittelohrentzündungen</p></li><li><p>Lern-und Konzentrationsstörungen</p></li><li><p>Bettnäsen</p></li></ul>"
+reitertext = "<p>Von Beginn an sowie im Verlauf des Lebens stehen wir vor Herausforderungen. In vielen Fällen kann die Osteopathie dazu beitragen, das Körperbewusstsein und die Entwicklung positiv zu beeinflussen.</p><ul><li><p>Dreimonatskoliken</p></li><li><p>Spuck-und Schreikinder</p></li><li><p>Schlafprobleme</p></li><li><p>Kopfschiefhaltung/Torticollis</p></li><li><p>Fehlhaltung/Skoliose/Fußfehlstellungen</p></li><li><p>verstopfter Tränenkanal</p></li><li><p>Stillprobleme</p></li><li><p>Hüftdysplasien</p></li><li><p>chronische Mittelohrentzündungen</p></li><li><p>Lern-und Konzentrationsstörungen</p></li><li><p>Bettnäsen</p></li></ul>"
 reitertitel = "Osteopathie für Kinder und Babys"
 [[reitergruppe]]
 farben = "124,124,124"
