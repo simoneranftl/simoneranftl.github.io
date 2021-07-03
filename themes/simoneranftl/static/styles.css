@@ -274,6 +274,10 @@ footer .elems .kelem ul li {
 #home #intro {
   padding: 2rem 0;
 }
+#home #intro svg {
+  width: 2rem;
+  margin-right: 1rem;
+}
 #home #intro p {
   text-align: center;
   font-size: 1.3rem;
@@ -306,6 +310,7 @@ footer .elems .kelem ul li {
 }
 #home #hinweist {
   padding: 2rem 0;
+  text-align: center;
 }
 #home #reitergruppen h2 {
   padding: 2rem 0;
@@ -407,6 +412,10 @@ footer .elems .kelem ul li {
 }
 .subpage.vita #intro {
   padding: 0 0 2rem 0;
+}
+.subpage.vita #intro svg {
+  width: 2rem;
+  margin-right: 1rem;
 }
 .subpage.vita #intro p {
   text-align: center;
