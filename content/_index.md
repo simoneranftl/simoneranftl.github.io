@@ -26,7 +26,7 @@ reitertext = "<p>Ältere Menschen sind nicht mehr so stressresistent wie früher
 reitertitel = "Osteopathie im Alter"
 [[reitergruppe]]
 farben = "108,108,110"
-reitertext = "<p>Diese Patienten befinden sich häufig in einer Vagotonie. Das bedeutet, dass sich das Gleichgewicht des vegetativen Nervensystems verändert und die Drüsenfunktion im Körper eher eine Unterfunktion aufweist.</p><p>Die Osteopathie zielt darauf ab, die Vitalität im Körper des Patienten zu verbessern und eine Stimulation in diesen Bereichen zu erreichen. In osteopathischen Hypothesen wird beschreiben, dass eine Blockade der Wirbelsäule der mögliche Auslöser für eine Depression sein kann.</p>"
+reitertext = "<p>Diese Patienten befinden sich häufig in einer Vagotonie. Das bedeutet, dass sich das Gleichgewicht des vegetativen Nervensystems verändert und die Drüsenfunktion im Körper eher eine Unterfunktion aufweist.</p><p>Die Osteopathie zielt darauf ab, die Vitalität im Körper des Patienten zu verbessern und eine Stimulation in diesen Bereichen zu erreichen. In osteopathischen Hypothesen wird beschrieben, dass eine Blockade der Wirbelsäule der mögliche Auslöser für eine Depression sein kann.</p>"
 reitertitel = "Osteopathie bei Depression und Angstzuständen"
 [[reitergruppe]]
 farben = ""
