@@ -12,9 +12,11 @@
     <div class="ui container">
       <div class="ui two column stackable grid">
         <div class="column withstrongs">
+            <img class="mobimg" src="{{partial "imgUrl" (dict "img" .Params.bildlinks "params" "" )}}"/>
             {{.Params.textlinks | safeHTML}}
         </div>
         <div class="column withstrongs">
+          <img class="mobimg" src="{{partial "imgUrl" (dict "img" .Params.bildrechts "params" "" )}}"/>
             {{.Params.textrechts_ | safeHTML}}
         </div>
       </div>

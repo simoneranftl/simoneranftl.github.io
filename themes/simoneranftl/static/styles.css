@@ -403,7 +403,7 @@ footer .elems .kelem ul li {
     display: none;
   }
 }
-.subpage.vita #topimg {
+.subpage.vita #topimg_mob {
   height: 50vh;
 }
 .subpage.vita .withstrongs strong {
@@ -438,6 +438,22 @@ footer .elems .kelem ul li {
 .subpage.kontakt h2 {
   text-align: left;
 }
+.subpage.kontakt .pimg {
+  width: 100%;
+  min-height: 10vh;
+  max-height: 50vh;
+}
+.subpage.kontakt .withstrongs {
+  position: relative;
+}
+.subpage.kontakt .mobimg {
+  width: 100%;
+}
+@media (min-width: 720px) {
+  .subpage.kontakt .mobimg {
+    display: none;
+  }
+}
 .subpage.kontakt #pimgs {
   display: flex;
   justify-content: space-between;
@@ -445,4 +461,9 @@ footer .elems .kelem ul li {
 .subpage.kontakt #pimgs > * {
   flex: 1 1 auto;
   height: 50vh;
+}
+@media (max-width: 720px) {
+  .subpage.kontakt #pimgs {
+    display: none;
+  }
 }

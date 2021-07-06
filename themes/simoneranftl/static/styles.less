@@ -423,7 +423,7 @@ footer{
     }
   }
   &.vita{
-    #topimg{
+    #topimg_mob{
       height:50vh;
     }
     .withstrongs{
@@ -460,12 +460,29 @@ footer{
     h2{
       text-align:left;
     }
+    .pimg{
+      width:100%;
+      min-height:10vh;
+      max-height:50vh;
+    }
+    .withstrongs{
+      position:relative;
+    }
+    .mobimg{
+      width:100%;
+      @media (min-width: 720px){
+        display:none;
+      }
+    }
     #pimgs{
       display:flex;
       justify-content: space-between;
       >*{
         flex: 1 1 auto;
         height:50vh;
+      }
+      @media (max-width: 720px){
+        display:none;
       }
     }
   }
