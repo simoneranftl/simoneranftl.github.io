@@ -3,7 +3,7 @@
   <ul class="headerslider">
     {{ range $x,$img := .Params.slide }}
     <li>
-      <div style="background:url({{partial "imgUrl" (dict "img" $img "params" "c_fill,q_90,g_auto,w_2500,h_900" )}}) center bottom no-repeat; background-size:cover;"></div>
+      <div style="background:url({{partial "imgUrl" (dict "img" $img "params" "c_fill,q_90,g_auto,w_2000,h_1000" )}}) center top no-repeat; background-size:cover;"></div>
     </li>
     {{end}}
   </ul>
