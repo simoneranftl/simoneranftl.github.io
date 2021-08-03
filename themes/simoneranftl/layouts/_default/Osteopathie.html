@@ -32,10 +32,15 @@
         {{end}}{{end}}
         <div>
           {{ range $x,$img := .Params.bildergalerie_osteopathie }} {{if gt $x 1}}
-          <div class="imgsx_rb imgstarter"  data-modal="imgg_o" data-idx="{{$x}}" style="background: url({{partial "imgUrl" (dict "img" $img "params" "c_fill,h_900,w_900,g_auto" )}}) center center no-repeat; background-size:cover"></div>
+          <div class="imgsx_rb imgstarter"  data-modal="imgg_o" data-idx="{{$x}}" style="background: url({{partial "imgUrl" (dict "img" $img "params" "c_fill,h_1200,w_800,g_auto" )}}) center top no-repeat; background-size:cover"></div>
           {{end}}{{end}}
         </div>
       </div>
+    </div>
+    <div id="imgsxmob">
+      {{ range $x,$img := .Params.bildergalerie_osteopathie }}
+      <div class="mobimg" style="background: url({{partial "imgUrl" (dict "img" $img "params" "c_fill,h_1600,w_900,g_auto" )}}) center center no-repeat; background-size:cover"></div>
+      {{end}}
     </div>
     <div class="ui modal" id="modal_imgg_o">
       <div class="content">

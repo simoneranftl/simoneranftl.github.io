@@ -360,9 +360,29 @@ footer .elems .kelem ul li {
 .subpage.osteopathie #textmitte {
   margin: 0 0 0 0;
 }
+.subpage.osteopathie #imgsxmob {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+@media (min-width: 720px) {
+  .subpage.osteopathie #imgsxmob {
+    display: none!important;
+  }
+}
+.subpage.osteopathie #imgsxmob .mobimg {
+  width: 90vw;
+  height: 120vw;
+  margin: 0.5rem 0;
+}
 .subpage.osteopathie #imgsx {
   display: flex;
   justify-content: space-between;
+}
+@media (max-width: 720px) {
+  .subpage.osteopathie #imgsx {
+    display: none!important;
+  }
 }
 .subpage.osteopathie #imgsx > * {
   flex: 1 1 auto;

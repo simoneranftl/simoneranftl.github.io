@@ -378,8 +378,24 @@ footer{
     #textmitte{
       margin:0 0 0 0;
     }
+    #imgsxmob{
+      @media (min-width: 720px){
+        display:none!important;
+      }
+      display:flex;
+      flex-direction: column;
+      align-items:center;
+      .mobimg{
+        width:90vw;
+        height:120vw;
+        margin:0.5rem 0;
+      }
+    }
     #imgsx{
       display:flex;
+      @media (max-width: 720px){
+        display:none!important;
+      }
       justify-content: space-between;
       > *{
         flex: 1 1 auto;
