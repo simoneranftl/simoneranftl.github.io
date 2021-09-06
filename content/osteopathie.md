@@ -1,5 +1,6 @@
 +++
-bildergalerie_osteopathie = ["/uploads/2021/05/21/jgs_180720_06681_2250px.jpg", "/uploads/2021/08/19/jgs_180720_07315_4k_3840px.jpg", "/uploads/2021/08/19/jgs_180720_07737_4k_3840px.jpg", "/uploads/2021/08/19/jgs_180720_07752_4k_3840px.jpg", "/uploads/2021/05/21/jgs_180720_06843_2250px.jpg", "/uploads/2021/05/21/jgs_180720_07518_2250px.jpg"]
+bildergalerie_osteopathie = ["/uploads/2021/05/21/jgs_180720_06681_2250px.jpg", "/uploads/2021/08/19/jgs_180720_07315_4k_3840px.jpg", "/uploads/2021/05/21/jgs_180720_07218_2250px.jpg", "/uploads/2021/05/21/jgs_180720_06843_2250px.jpg"]
+bildergalerieosteopathie-2 = []
 headline = "Osteopathie"
 layout = "Osteopathie"
 text1 = "<p>Jeder Organismus steht in einer Art <strong>Gleichgewicht</strong>, dass nennt man <strong>Gesundheit</strong>. Bevor man eine Krankheit als solches benennt, gab es zuvor einen Zustand des <strong>Ungleichgewichtes</strong>. Osteopathie sucht für dieses Ungleichgewicht die Ursache. Mit holistischen Ansatz sowie mit der psychischen, physischen und sozialen Betrachtung der Person.</p>"
