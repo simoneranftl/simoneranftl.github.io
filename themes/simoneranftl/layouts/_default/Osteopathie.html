@@ -63,5 +63,40 @@
     </div>
     {{end}}
   </div>
+  <div class="ui container">
+    <div id="imgsx2">
+      <div id="imgsx_r2">
+        {{ range $x,$img := .Params.bildergalerieosteopathie_2 }} {{if eq $x 0}}
+        <div class="imgsx_l2c imgstarter" data-modal="imgg_o2" data-idx="{{$x}}" style="background: url({{partial "imgUrl" (dict "img" $img "params" "c_fill,h_1400,w_1600,g_auto" )}}) center center no-repeat; background-size:cover"></div>
+        {{end}}{{end}}
+        <div  class="imgsx_l2c">
+          {{ range $x,$img := .Params.bildergalerieosteopathie_2 }} {{if gt $x 0}}{{if lt $x 3}}
+          <div class="imgsx_rb imgstarter"  data-modal="imgg_o2" data-idx="{{$x}}" style="background: url({{partial "imgUrl" (dict "img" $img "params" "c_fill,h_1200,w_1200,g_auto" )}}) center top no-repeat; background-size:cover"></div>
+          {{end}}{{end}}{{end}}
+        </div>
+      </div>
+      <div id="imgsx_rq">
+      {{ range $x,$img := .Params.bildergalerieosteopathie_2 }} {{if gt $x 2}}
+      <div class="imgsx_rq2 imgstarter" data-modal="imgg_o2" data-idx="{{$x}}" style="background: url({{partial "imgUrl" (dict "img" $img "params" "c_fill,h_1600,w_1200,g_auto" )}}) center center no-repeat; background-size:cover"></div>
+      {{end}}{{end}}
+      </div>
+    </div>
+    <div id="imgsxmob">
+      {{ range $x,$img := .Params.bildergalerieosteopathie_2 }}
+      <div class="mobimg" style="background: url({{partial "imgUrl" (dict "img" $img "params" "c_fill,h_1600,w_900,g_auto" )}}) center center no-repeat; background-size:cover"></div>
+      {{end}}
+    </div>
+    <div class="ui modal" id="modal_imgg_o2">
+      <div class="content">
+        <ul id="gal_imgg_o2" class="imggalslider">
+          {{ range $x,$img := .Params.bildergalerieosteopathie_2 }}
+          <li>
+            <img src="{{partial "imgUrl" (dict "img" $img "params" "c_fill,h_1600,w_1600,f_auto,g_auto" )}} " />
+          </li>
+          {{end}}
+        </ul>
+      </div>
+    </div>
+  </div>
 </div>
 {{end}}

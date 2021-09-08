@@ -75,9 +75,9 @@ fields:
         format: html-blocks
     label: spalte rechts
   label: Kosten
-- name: bildergalerieosteopathie-2
+- name: bildergalerieosteopathie_2
   type: image_gallery
   config: {}
-  label: Bildergalerieosteopathie-2
+  label: Bildergalerieosteopathie_2
 pages:
 - content/osteopathie.md

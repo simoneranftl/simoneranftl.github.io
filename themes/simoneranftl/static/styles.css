@@ -375,36 +375,93 @@ footer .elems .kelem ul li {
   height: 120vw;
   margin: 0.5rem 0;
 }
-.subpage.osteopathie #imgsx {
+.subpage.osteopathie #imgsx2 {
+  margin: 2rem 0;
+}
+.subpage.osteopathie #imgsx,
+.subpage.osteopathie #imgsx2 {
   display: flex;
   justify-content: space-between;
 }
 @media (max-width: 720px) {
-  .subpage.osteopathie #imgsx {
+  .subpage.osteopathie #imgsx,
+  .subpage.osteopathie #imgsx2 {
     display: none!important;
   }
 }
-.subpage.osteopathie #imgsx > * {
+.subpage.osteopathie #imgsx > *,
+.subpage.osteopathie #imgsx2 > * {
   flex: 1 1 auto;
 }
-.subpage.osteopathie #imgsx #imgsx_l {
+.subpage.osteopathie #imgsx #imgsx_l,
+.subpage.osteopathie #imgsx2 #imgsx_l {
   min-height: 70vh;
 }
-.subpage.osteopathie #imgsx #imgsx_r {
+.subpage.osteopathie #imgsx #imgsx_l2,
+.subpage.osteopathie #imgsx2 #imgsx_l2 {
+  min-height: 50vh;
+}
+.subpage.osteopathie #imgsx #imgsx_r,
+.subpage.osteopathie #imgsx2 #imgsx_r {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
 }
-.subpage.osteopathie #imgsx #imgsx_r > * {
+.subpage.osteopathie #imgsx #imgsx_r > *,
+.subpage.osteopathie #imgsx2 #imgsx_r > * {
   flex: 1 1 auto;
 }
-.subpage.osteopathie #imgsx #imgsx_r > div {
+.subpage.osteopathie #imgsx #imgsx_r > div,
+.subpage.osteopathie #imgsx2 #imgsx_r > div {
   display: flex;
 }
-.subpage.osteopathie #imgsx #imgsx_r .imgsx_rb {
+.subpage.osteopathie #imgsx #imgsx_r .imgsx_rb,
+.subpage.osteopathie #imgsx2 #imgsx_r .imgsx_rb {
   flex: 1 1 auto;
 }
-.subpage.osteopathie #imgsx #imgsx_r1t {
+.subpage.osteopathie #imgsx #imgsx_r1t,
+.subpage.osteopathie #imgsx2 #imgsx_r1t {
+  min-height: 20vh;
+}
+.subpage.osteopathie #imgsx .imgsx_l2c,
+.subpage.osteopathie #imgsx2 .imgsx_l2c {
+  min-height: 20vh;
+}
+.subpage.osteopathie #imgsx .imgsx_l2c:first-child,
+.subpage.osteopathie #imgsx2 .imgsx_l2c:first-child {
+  min-height: 40vh;
+}
+.subpage.osteopathie #imgsx #imgsx_rq,
+.subpage.osteopathie #imgsx2 #imgsx_rq {
+  min-height: 20vh;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.subpage.osteopathie #imgsx #imgsx_rq .imgsx_rq2,
+.subpage.osteopathie #imgsx2 #imgsx_rq .imgsx_rq2 {
+  width: 50%;
+}
+.subpage.osteopathie #imgsx #imgsx_r2,
+.subpage.osteopathie #imgsx2 #imgsx_r2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.subpage.osteopathie #imgsx #imgsx_r2 > *,
+.subpage.osteopathie #imgsx2 #imgsx_r2 > * {
+  flex: 1 1 auto;
+}
+.subpage.osteopathie #imgsx #imgsx_r2 > div,
+.subpage.osteopathie #imgsx2 #imgsx_r2 > div {
+  display: flex;
+}
+.subpage.osteopathie #imgsx #imgsx_r2 .imgsx_rb,
+.subpage.osteopathie #imgsx2 #imgsx_r2 .imgsx_rb {
+  flex: 1 1 auto;
+}
+.subpage.osteopathie #imgsx #imgsx_r1t,
+.subpage.osteopathie #imgsx2 #imgsx_r1t {
   min-height: 20vh;
 }
 @media (max-width: 720px) {
