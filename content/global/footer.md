@@ -18,6 +18,6 @@ icon = "/uploads/2021/05/21/phone.png"
 text = "<p>0 171 - 574 70 63</p>"
 [[kontakt]]
 icon = "/uploads/2021/05/21/mail.png"
-text = "<p><a href=\"mailto:sr@simone-ranftl.de\" title=\"\">sr@simone-ranftl.de</a></p>"
+text = "<p><a href=\"mailto:simone.ranftl@gmx.de\" title=\"\">simone.ranftl@gmx.de</a></p>"
 
 +++
