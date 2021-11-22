@@ -1,0 +1,546 @@
+body {
+  font-family: 'Source Sans Pro', sans-serif;
+  color: #1e1e1e;
+  background: #f8f8f8 !important;
+  font-size: 14px;
+}
+body *:not(i) {
+  font-family: 'Source Sans Pro', sans-serif;
+}
+h1,
+h2,
+h3,
+h4 {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: 600;
+  color: #5f6165;
+}
+h1 em,
+h2 em,
+h3 em,
+h4 em {
+  font-style: normal;
+  color: #009dee;
+}
+ul {
+  padding: 0;
+  margin: 0 0 0 0;
+}
+ul li {
+  margin: 0 0 0 0;
+  list-style-position: outside;
+}
+.content ul {
+  padding: 0;
+  margin: 0 0 1rem 0;
+}
+.content ul li {
+  margin: 0 0 0 1em;
+  list-style-position: outside;
+}
+blockquote,
+q {
+  border: none;
+  font-style: italic;
+  quotes: "\201C" "\201D" "\2018" "\2019" !important;
+}
+blockquote p {
+  background: transparent;
+}
+/**/
+blockquote:before {
+  position: absolute;
+  color: #858585;
+  content: "\201C";
+  font-size: 4rem;
+  line-height: 0.1em;
+  margin-right: 0.1em;
+  top: 0;
+  left: 0;
+  margin-top: 4.5rem;
+  width: 30px;
+  z-index: 99;
+}
+blockquote {
+  font-size: 1.6rem;
+  font-style: italic;
+  font-weight: normal;
+  line-height: 0.1;
+  margin-bottom: 2px;
+}
+@media (max-width: 720px) {
+  blockquote {
+    font-size: 1.5rem;
+  }
+}
+a {
+  color: #1e1e1e;
+}
+a:hover {
+  text-decoration: underline;
+  color: #1e1e1e;
+}
+header {
+  background: #dedede;
+  padding: 2rem 0;
+}
+footer {
+  background: #dedede;
+  padding: 2rem 0;
+}
+footer .logo {
+  height: 80px;
+}
+footer .elems {
+  display: flex;
+  justify-content: space-between;
+}
+@media (max-width: 720px) {
+  footer .elems {
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+  footer .elems img.logo {
+    max-width: 90vw;
+    height: auto;
+    margin-bottom: 2rem;
+  }
+}
+footer .elems .kelem {
+  margin: 0 0 0 1rem;
+}
+footer .elems .kelem .inner {
+  display: flex;
+  justify-content: flex-start;
+  margin: 0 0 0.5rem 0;
+}
+footer .elems .kelem .inner img {
+  flex: 0 0 auto;
+  height: 20px;
+  margin-right: 0.5rem;
+}
+footer .elems .kelem ul li {
+  list-style-type: none;
+}
+.imgstarter {
+  cursor: pointer;
+}
+.customaccordion .content {
+  overflow: hidden;
+  max-height: 0;
+  padding: 0;
+  transition-property: all;
+  transition-duration: 0.6s;
+  transition-timing-function: ease-in-out;
+}
+.customaccordion .title {
+  cursor: pointer;
+}
+.customaccordion .accordionelem.active .content {
+  max-height: 1000px;
+  transition-property: all;
+  transition-duration: 0.6s;
+  transition-timing-function: ease-in-out;
+}
+#mnt {
+  display: none;
+  position: absolute;
+  right: 1rem;
+  top: 1rem;
+}
+#mnt #mntbt {
+  box-shadow: none!important;
+  background: none!important;
+}
+#mnt #mntbt i {
+  color: #1e1e1e;
+}
+@media (max-width: 720px) {
+  #mnt {
+    display: block;
+  }
+}
+#headermenumobil {
+  display: none;
+}
+@media (max-width: 720px) {
+  #headermenumobil {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    max-height: 0px;
+    overflow: hidden;
+    opacity: 0;
+    transition-property: all;
+    transition-duration: 0.6s;
+    transition-timing-function: ease-in-out;
+  }
+  #headermenumobil.mobvis {
+    max-height: 1000px;
+    padding: 0 2rem 0rem!important;
+    transition-property: all;
+    transition-duration: 0.6s;
+    transition-timing-function: ease-in-out;
+    opacity: 1;
+    margin: 0 -1rem;
+  }
+  #headermenumobil .headermenuitem {
+    padding: 0 0.5rem;
+    color: #5f6165;
+    border: none;
+    text-transform: uppercase;
+    font-size: 1rem;
+    line-height: 2rem;
+    text-align: left;
+  }
+}
+.sy-prev {
+  margin: 0;
+}
+#logonav {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+#logonav > * {
+  flex: 0 1 20%;
+}
+#logonav img {
+  max-width: 90vw;
+}
+#hmenu {
+  position: relative;
+}
+@media (max-width: 720px) {
+  #hmenu {
+    display: none;
+  }
+}
+#hmenu #headermenu {
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: 2rem;
+}
+#hmenu #headermenu li.headermenuitem {
+  list-style-type: none;
+  margin: 0;
+  padding: 0 0.5rem;
+  line-height: 1em;
+  border-right: 1px solid black;
+}
+#hmenu #headermenu li.headermenuitem * {
+  line-height: 1em;
+  color: black;
+}
+#hmenu #headermenu li.headermenuitem:last-child {
+  border-right: none;
+}
+.grey {
+  background: #dedede;
+}
+.customaccordion .content {
+  overflow: hidden;
+  max-height: 0;
+  padding: 0;
+  transition-property: all;
+  transition-duration: 0.6s;
+  transition-timing-function: ease-in-out;
+}
+.customaccordion .title {
+  cursor: pointer;
+}
+.customaccordion .accordionelem.active .content {
+  max-height: 1000px;
+  transition-property: all;
+  transition-duration: 0.6s;
+  transition-timing-function: ease-in-out;
+}
+.customaccordion .accordionelem.inactive .content {
+  padding: 0 2rem!important;
+}
+#home .headerslider li > div {
+  width: 100vw;
+  height: 80vh;
+}
+@media (max-width: 720px) {
+  #home .headerslider li > div {
+    width: 100vw;
+    height: 50vh;
+  }
+}
+#home #intro {
+  padding: 2rem 0;
+}
+#home #intro svg {
+  width: 2rem;
+  margin-right: 1rem;
+}
+#home #intro p {
+  text-align: center;
+  font-size: 1.3rem;
+}
+#home #intro p:first-child {
+  font-style: italic;
+  font-size: 1.8rem;
+  position: relative;
+}
+#home #intro p:first-child i {
+  margin-right: 0.5em;
+}
+#home .arrowwrap {
+  position: absolute;
+  display: flex;
+  top: 0;
+  right: 4rem;
+}
+#home .arrowwrap .arrleft {
+  height: 0px;
+  width: 0px;
+  border-top: 20px solid grey;
+  border-left: 40px solid transparent;
+}
+#home .arrowwrap .arrright {
+  height: 0px;
+  width: 0px;
+  border-top: 20px solid grey;
+  border-right: 40px solid transparent;
+}
+#home #hinweist {
+  padding: 2rem 0;
+  text-align: center;
+}
+#home #reitergruppen h2 {
+  padding: 2rem 0;
+  text-align: center;
+  text-transform: uppercase;
+  margin: 0;
+}
+#home #reitergruppen .accordionelem {
+  border: 1px solid #dedede;
+}
+#home #reitergruppen .accordionelem h3 {
+  text-align: center;
+  text-transform: uppercase;
+  color: black;
+}
+#home #reitergruppen .accordionelem .title {
+  text-transform: uppercase;
+  text-align: center;
+  padding: 1rem 2rem;
+}
+#home #reitergruppen .accordionelem .content {
+  padding: 1rem 2rem;
+  position: relative;
+}
+.subpage {
+  padding: 0 0 2rem 0;
+}
+.subpage h1 {
+  text-align: center;
+  margin: 2rem 0;
+  text-transform: uppercase;
+  font-weight: normal;
+  font-size: 1.8rem;
+}
+.subpage h2 {
+  text-align: center;
+  margin: 1rem 0;
+  text-transform: uppercase;
+  font-weight: normal;
+  font-size: 1.5rem;
+}
+.subpage.osteopathie #text1,
+.subpage.osteopathie #text_unten {
+  text-align: center;
+  margin: 0 0 2rem 0;
+}
+.subpage.osteopathie #textmitte {
+  margin: 0 0 0 0;
+}
+.subpage.osteopathie #imgsxmob {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+@media (min-width: 720px) {
+  .subpage.osteopathie #imgsxmob {
+    display: none!important;
+  }
+}
+.subpage.osteopathie #imgsxmob .mobimg {
+  width: 90vw;
+  height: 120vw;
+  margin: 0.5rem 0;
+}
+.subpage.osteopathie #imgsx2 {
+  margin: 2rem 0;
+}
+.subpage.osteopathie #imgsx,
+.subpage.osteopathie #imgsx2 {
+  display: flex;
+  justify-content: space-between;
+}
+@media (max-width: 720px) {
+  .subpage.osteopathie #imgsx,
+  .subpage.osteopathie #imgsx2 {
+    display: none!important;
+  }
+}
+.subpage.osteopathie #imgsx > *,
+.subpage.osteopathie #imgsx2 > * {
+  flex: 1 1 auto;
+}
+.subpage.osteopathie #imgsx #imgsx_l,
+.subpage.osteopathie #imgsx2 #imgsx_l {
+  min-height: 70vh;
+}
+.subpage.osteopathie #imgsx #imgsx_l2,
+.subpage.osteopathie #imgsx2 #imgsx_l2 {
+  min-height: 50vh;
+}
+.subpage.osteopathie #imgsx #imgsx_r,
+.subpage.osteopathie #imgsx2 #imgsx_r {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.subpage.osteopathie #imgsx #imgsx_r > *,
+.subpage.osteopathie #imgsx2 #imgsx_r > * {
+  flex: 1 1 auto;
+}
+.subpage.osteopathie #imgsx #imgsx_r > div,
+.subpage.osteopathie #imgsx2 #imgsx_r > div {
+  display: flex;
+}
+.subpage.osteopathie #imgsx #imgsx_r .imgsx_rb,
+.subpage.osteopathie #imgsx2 #imgsx_r .imgsx_rb {
+  flex: 1 1 auto;
+}
+.subpage.osteopathie #imgsx #imgsx_r1t,
+.subpage.osteopathie #imgsx2 #imgsx_r1t {
+  min-height: 20vh;
+}
+.subpage.osteopathie #imgsx .imgsx_l2c,
+.subpage.osteopathie #imgsx2 .imgsx_l2c {
+  min-height: 20vh;
+}
+.subpage.osteopathie #imgsx .imgsx_l2c:first-child,
+.subpage.osteopathie #imgsx2 .imgsx_l2c:first-child {
+  min-height: 40vh;
+}
+.subpage.osteopathie #imgsx #imgsx_rq,
+.subpage.osteopathie #imgsx2 #imgsx_rq {
+  min-height: 20vh;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.subpage.osteopathie #imgsx #imgsx_rq .imgsx_rq2,
+.subpage.osteopathie #imgsx2 #imgsx_rq .imgsx_rq2 {
+  width: 50%;
+}
+.subpage.osteopathie #imgsx #imgsx_r2,
+.subpage.osteopathie #imgsx2 #imgsx_r2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.subpage.osteopathie #imgsx #imgsx_r2 > *,
+.subpage.osteopathie #imgsx2 #imgsx_r2 > * {
+  flex: 1 1 auto;
+}
+.subpage.osteopathie #imgsx #imgsx_r2 > div,
+.subpage.osteopathie #imgsx2 #imgsx_r2 > div {
+  display: flex;
+}
+.subpage.osteopathie #imgsx #imgsx_r2 .imgsx_rb,
+.subpage.osteopathie #imgsx2 #imgsx_r2 .imgsx_rb {
+  flex: 1 1 auto;
+}
+.subpage.osteopathie #imgsx #imgsx_r1t,
+.subpage.osteopathie #imgsx2 #imgsx_r1t {
+  min-height: 20vh;
+}
+@media (max-width: 720px) {
+  .subpage.osteopathie #imgsx {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+  }
+  .subpage.osteopathie #imgsx > * {
+    flex: 1 1 auto;
+  }
+  .subpage.osteopathie #imgsx #imgsx_l {
+    min-height: 70vh;
+  }
+  .subpage.osteopathie #imgsx #imgsx_r {
+    display: none;
+  }
+}
+.subpage.vita #topimg_mob {
+  height: 50vh;
+}
+.subpage.vita .withstrongs strong {
+  font-weight: normal;
+  font-size: 1.7rem;
+}
+.subpage.vita #intro {
+  padding: 0 0 2rem 0;
+}
+.subpage.vita #intro svg {
+  width: 2rem;
+  margin-right: 1rem;
+}
+.subpage.vita #intro p {
+  text-align: center;
+  font-size: 1.3rem;
+}
+.subpage.vita #intro p:first-child {
+  font-style: italic;
+  font-size: 1.8rem;
+  position: relative;
+}
+.subpage.vita #intro p:first-child i {
+  margin-right: 0.5em;
+}
+.subpage.kontakt {
+  padding-bottom: 0;
+}
+.subpage.kontakt .grey {
+  padding: 0 0 2rem 0;
+}
+.subpage.kontakt h2 {
+  text-align: left;
+}
+.subpage.kontakt .pimg {
+  width: 100%;
+  min-height: 10vh;
+  max-height: 50vh;
+}
+.subpage.kontakt .withstrongs {
+  position: relative;
+}
+.subpage.kontakt .mobimg {
+  width: 100%;
+}
+@media (min-width: 720px) {
+  .subpage.kontakt .mobimg {
+    display: none;
+  }
+}
+.subpage.kontakt #pimgs {
+  display: flex;
+  justify-content: space-between;
+}
+.subpage.kontakt #pimgs > * {
+  flex: 1 1 auto;
+  height: 50vh;
+}
+@media (max-width: 720px) {
+  .subpage.kontakt #pimgs {
+    display: none;
+  }
+}
