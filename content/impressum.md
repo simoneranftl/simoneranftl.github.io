@@ -16,7 +16,7 @@ Pfarrer-Schmalhofer-Straße 9
 Steuer-Nummer: 126/260/31259
 
 Tel: 0 171 - 574 70 63  
-E-Mail: [sr@simone-ranftl.de]()  
+E-Mail: [simone.ranftl@gmx.de](mailto:simone.ranftl@gmx.de)  
 Web: www.simone-ranft.de
 
 Konzeption, Design, Umsetzung:  
